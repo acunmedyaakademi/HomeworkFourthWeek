@@ -1,18 +1,43 @@
+:root {
+  --black: #000000;
+  --black-50: rgba(0, 0, 0, 0.5);
+  --white: #ffffff;
+  --white-50: rgba(255, 255, 255, 0.5);
+  --blue: #434CCC;
+  --yellow: #F1B505;
+
+  --max-width: 1110px;
+  --mv-auto: 0 auto;
+
+  --gap: 16px;
+  --gap-sm: 24px;
+  --gap-md: 30px;
+  --gap-lg: 40px;
+  --gap-xl: 56px;
+
+  --br-sm: 3px;
+  --br-md: 6px;
+  --br-lg: 12px;
+  --br-full: 50%;
+
+  --transition: all 0.2s linear;
+}
+
 /*
   1. Use a more-intuitive box-sizing model.
 */
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /*
     2. Remove default margin
   */
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /*
@@ -20,8 +45,8 @@
   */
 html,
 body {
-    height: 100%;
-    /* background-color: #121212; */
+  height: 100%;
+  /* background-color: #121212; */
 }
 
 /*
@@ -30,9 +55,9 @@ body {
     5. Improve text rendering
   */
 body {
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
-    scroll-behavior: smooth;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
 }
 
 /*
@@ -43,8 +68,8 @@ picture,
 video,
 canvas,
 svg {
-    display: block;
-    max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
 
 /*
@@ -54,7 +79,7 @@ input,
 button,
 textarea,
 select {
-    font: inherit;
+  font: inherit;
 }
 
 /*
@@ -67,5 +92,351 @@ h3,
 h4,
 h5,
 h6 {
-    overflow-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/*
+    9. Remove default list styles
+  */
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.dm-serif {
+  font-family: "DM Serif Display", serif;
+}
+
+.dm-sans {
+  font-family: "DM Sans", sans-serif;
+}
+
+.font-weight-400 {
+  font-weight: 400;
+}
+
+.font-weight-700 {
+  font-weight: 700;
+}
+
+.font-size-72 {
+  font-size: 72px;
+  line-height: 80px;
+}
+
+.font-size-56 {
+  font-size: 56px;
+  line-height: 64px;
+}
+
+.font-size-40 {
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.font-size-24 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.font-size-12 {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.container {
+  margin: auto 15px;
+}
+
+
+.tempgrid {
+  height: 1000000px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  margin: auto 15px;
+  grid-column-gap: 10px;
+  position: absolute;
+  z-index: 999;
+}
+
+.asd {
+  background-color: #44444420;
+  width: 20px;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.div2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.div3 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+
+.div4 {
+  grid-area: 1 / 4 / 2 / 5;
+}
+
+.div5 {
+  grid-area: 1 / 5 / 2 / 6;
+}
+
+.div6 {
+  grid-area: 1 / 6 / 2 / 7;
+}
+
+.div7 {
+  grid-area: 1 / 7 / 2 / 8;
+}
+
+.div8 {
+  grid-area: 1 / 8 / 2 / 9;
+}
+
+.div9 {
+  grid-area: 1 / 9 / 2 / 10;
+}
+
+.div10 {
+  grid-area: 1 / 10 / 2 / 11;
+}
+
+.div11 {
+  grid-area: 1 / 11 / 2 / 12;
+}
+
+.div12 {
+  grid-area: 1 / 12 / 2 / 13;
+}
+
+.parent {
+  position: fixed;
+  z-index: 999;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(12, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 16px;
+}
+
+.asdd {
+  background-color: #44444470;
+  height: 16px;
+}
+
+.div20 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.div21 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.div22 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+.div23 {
+  grid-area: 4 / 1 / 5 / 2;
+}
+
+.div24 {
+  grid-area: 5 / 1 / 6 / 2;
+}
+
+.div25 {
+  grid-area: 6 / 1 / 7 / 2;
+}
+
+.div26 {
+  grid-area: 7 / 1 / 8 / 2;
+}
+
+.div27 {
+  grid-area: 8 / 1 / 9 / 2;
+}
+
+.div28 {
+  grid-area: 9 / 1 / 10 / 2;
+}
+
+.div29 {
+  grid-area: 10 / 1 / 11 / 2;
+}
+
+.div30 {
+  grid-area: 11 / 1 / 12 / 2;
+}
+
+.div31 {
+  grid-area: 12 / 1 / 13 / 2;
+}
+
+
+/*-------------------- Global Settings --------------------*/
+
+
+/*-------------------- Navbar --------------------*/
+nav {
+  background-color: var(--blue);
+  padding: 16px 0 0 0;
+
+
+}
+
+nav div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 32px;
+  min-width: 346px;
+}
+
+/*-------------------- Header --------------------*/
+
+header {
+  background-color: var(--blue);
+  color: var(--white);
+  padding-top: 34px;
+}
+
+header h3 {
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+header h1 {
+  margin-bottom: 19px;
+}
+
+header p {
+  margin-bottom: 25px;
+}
+
+header a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 48px;
+  border-radius: 5px;
+  background-color: var(--yellow);
+}
+
+.headerImage {
+  width: 100%;
+  height: 304px;
+  margin-top: -6px;
+}
+
+.headerImage img {
+  width: 100%;
+  height: 304px;
+  object-fit: none;
+  position: absolute;
+  left: 0;
+}
+
+/*-------------------- About --------------------*/
+
+.about {
+  background-color: var(--yellow);
+  padding: 42px 0 80px 0;
+}
+
+.aboutText h2 {
+  margin-bottom: 31px;
+}
+
+.aboutText p {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  position: relative;
+  gap: 16px;
+}
+
+.card {
+  background-color: var(--white);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.297017);
+  border-radius: 5px;
+}
+
+.card>img {
+  margin: 64px auto 54px auto;
+  border-radius: 5px;
+}
+
+.card h3 {
+  margin-bottom: 15px;
+}
+
+.card p {
+  color: var(--black-50);
+}
+
+.cardContent {
+  margin-left: 30px;
+}
+
+.cardContent a {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  padding-top: 18px;
+  gap: 7px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 21px;
+}
+
+/*-------------------- Aliquip --------------------*/
+
+.aliquip {
+  padding: 63px 0 57px 0;
+}
+.aliquipText{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.aliquipText h3{
+  margin-bottom: 19px;
+}
+.aliquipText h2 {
+  margin-bottom: 31px;
+}
+.aliquipText p {
+  text-align: center;
+}
+.clipCards{
+
+}
+.clipCard h3{
 }
