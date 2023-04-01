@@ -152,7 +152,7 @@ a {
 
 .font-size-20 {
   font-size: 20px;
-  line-height: 28px;
+  line-height: 32px;
 }
 
 .font-size-12 {
@@ -191,11 +191,29 @@ a {
 .ta-center {
   text-align: center;
 }
+
 .mb-26 {
   margin-bottom: 26px;
 }
-.ml-0{
+
+.mb-66 {
+  margin-bottom: 66px;
+}
+
+.gap-33 {
+  gap: 33px;
+}
+
+.ml-0 {
   margin-left: 0;
+}
+
+.letter-spacing-03 {
+  letter-spacing: 0.3em;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 .tempgrid {
@@ -494,7 +512,7 @@ header a {
 
 .molestiae {
   background-image: url("../src/image/jpg/Rectangle.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   padding: 63px 0 0px 0;
   color: var(--white);
 }
@@ -617,11 +635,246 @@ header a {
   margin-bottom: 16px;
   margin-left: -9px;
 }
-.molestiaeBottomDescription:last-child img{
+
+.molestiaeBottomDescription:last-child img {
   margin-bottom: 24px;
   margin-left: 0px;
 }
 
 .molestiaeBottom h3 {
   margin-bottom: 23px;
+}
+
+/*-------------------- Scripserit --------------------*/
+.scripserit {
+  background-color: var(--blue);
+  padding: 63px 0 0px 0;
+  color: var(--white);
+  position: relative;
+}
+
+.scripserit h3 {
+  margin-bottom: 19px;
+}
+
+.scripserit h2 {
+  margin-bottom: 31px;
+}
+
+.scripserit p {
+  margin-bottom: 40px;
+}
+
+.scripserit a {
+  background-color: var(--yellow);
+  width: 170px;
+  height: 48px;
+  border-radius: 5px;
+  margin-bottom: 64px;
+}
+
+/*-------------------- Staff --------------------*/
+.staff {
+  padding: 63px 0 0 0;
+}
+
+.staff h2 {
+  margin-bottom: 19px;
+}
+
+.staff h1 {
+  margin-bottom: 31px;
+}
+
+.staff h4 {
+  margin-bottom: 53px;
+}
+
+.staffCard {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.297017);
+  border-radius: 5px;
+}
+
+.staffCard h3 {
+  margin-bottom: 24px;
+  margin-left: 32px;
+}
+
+.staffImg {
+  margin: 32px 32px 0 32px;
+  margin-bottom: 13px;
+}
+
+.staffImg img {
+  width: 282px;
+  height: 282px;
+  border-radius: 50%;
+}
+
+.staffCardContent {
+  padding-top: 18px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin-left: 32px;
+}
+
+.staffCardContent div {
+  gap: 10px;
+  margin-right: 32px;
+  margin-bottom: 21px;
+}
+
+/*-------------------- Materials --------------------*/
+.materials {
+  padding: 95px 0 80px 0;
+}
+
+.materials h2 {
+  margin-bottom: 19px;
+}
+
+.materials h1 {
+  margin-bottom: 31px;
+}
+
+.materials h4 {
+  margin-bottom: 52px;
+}
+
+.materialsCard {
+  align-items: flex-start;
+  gap: 25px;
+  padding: 25px 32px 30px 32px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.297017);
+  border-radius: 5px;
+}
+
+.materialsCard img {
+  margin-top: 7px;
+}
+
+.materialsCard h3 {
+  margin-bottom: 7px;
+}
+
+/*-------------------- Boss --------------------*/
+.boss {
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 80px 0 57px 0;
+}
+
+.bossImage {
+  gap: 11px;
+  margin-bottom: 33px;
+}
+
+.bossImage>img {
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+}
+
+.bossImage div {
+  gap: 16px;
+}
+
+.bossImage div img {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  padding: 12.5px 16.5px;
+}
+
+.boss h1 {
+  margin-bottom: 33px;
+  margin-left: 60px;
+}
+
+.boss h2 {
+  margin-bottom: 25px;
+  margin-left: 60px;
+}
+
+.boss h3 {
+  margin-bottom: 6px;
+  margin-left: 60px;
+}
+
+.boss h4 {
+  margin-left: 60px;
+  color: var(--white-50);
+}
+
+/*-------------------- Contact Us --------------------*/
+
+.contactus {
+  padding: 63px 0 80px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.contactus h3 {
+  margin-bottom: 19px;
+}
+
+.contactus h2 {
+  margin-bottom: 31px;
+}
+
+.contactus p {
+  margin-bottom: 60px;
+}
+
+.contactusButton a {
+  border-radius: 5px;
+  color: var(--blue);
+  border: 1px solid var(--blue-30);
+  width: 170px;
+  height: 48px;
+  margin-bottom: -3px;
+}
+
+/*-------------------- Blog --------------------*/
+.blog {
+  padding: 46px 0 0 0;
+}
+
+.blogText h3 {
+  margin-bottom: 19px;
+}
+
+.blogText h2 {
+  margin-bottom: 38px;
+}
+
+.blogCard {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.297017);
+  border-radius: 5px;
+}
+
+.blogCard>img {
+  margin: 32px 32px 0 32px;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+
+
+.blogCard h3 {
+  margin-bottom: 17px;
+  margin-left: 32px;
+  color: var(--black-50);
+}
+
+.blogCard p {
+  margin-bottom: 24px;
+  margin-left: 32px;
+}
+
+.blogButton {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin-left: 32px;
+  padding-top: 18px;
+  padding-bottom: 21px;
+}
+
+.blogButton a {
+  gap: 6px;
 }
