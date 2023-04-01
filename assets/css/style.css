@@ -125,6 +125,9 @@
   background: #434CCC;
 }
 
+
+/* MEDIA QUERY */
+
 @media screen and (max-width:480px){
     .container{
         width: 100%;
@@ -280,6 +283,11 @@
       line-height: 24px;
       color: #000000;
     }
+    .rectangle3{
+      padding-left:15px;
+      padding-right: 15px;
+      height: 768px;
+    }
     .rectangle3Header{
       padding-left: 15px;
       padding-right: 15px;
@@ -293,6 +301,7 @@
       letter-spacing: 0.3em;
       text-align: center;
       color: #FFFFFF;
+      text-transform: uppercase;
     }
     .rectangle3Header h3{
       font-family: 'DM Serif Display', serif;
@@ -316,13 +325,17 @@
       background-image: url('../img/commune.png');
       height: 800px;
       background-repeat: no-repeat;
-
+      padding-top: 25px;
+    }
+    .rectangle3Img span,h3{
+      padding-left: 15px;
     }
     .rectangle3Img span{
       font-size: 16px;
       font-weight: 400;
       line-height: 24px;
       color: #FFFFFF80;
+      
     }
     .rectangle3Img h3{
       font-family: 'DM Serif Display', serif;
@@ -330,6 +343,7 @@
       font-size: 40px;
       line-height: 48px;
       color: #FFFFFF;
+      margin-bottom: 35px;
     }
     
     .rectangle3Img a{
@@ -341,6 +355,24 @@
       line-height: 24px;
       text-align: center;
       color: #FFFFFF;
+      margin-left: 15px;
+    }
+    .erroribus{
+      background-image: url('/assets/img/erroribus.png');
+      height: 800px;
+      background-repeat: no-repeat;
+      margin-top: 75px;      
+      margin-left: 15px;
+    }
+    .erroribus span{
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #FFFFFF80;
+      margin-top:31px ;
+      margin-left: 30px;
+     
+
     }
     
 }
