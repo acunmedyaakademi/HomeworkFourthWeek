@@ -117,73 +117,12 @@
 .rectangle1{
   background: #FFDD78;
 }
-.rectangle1{
-  padding-left: 15px;
-  padding-right: 14px;
-}
-.rectangle1Header h3{
-  padding-top: 42px;
-  font-family: 'DM Serif Display', serif;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 48px;
-  text-align: center;
-  color: #000000;
-}
-.rectangle1Header p{
-  margin-top: 31px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 32px;
-  text-align: center;
-  color: #000000;
 
-}
-.rectangle1Card{
-  background: #FFFFFF;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.297017);
-  border-radius: 5px;
-  margin-top: 16px;
-}
-.rectangle1Card h4,p,a{
-  padding-left: 30px;
-}
-.rectangle1CardImg{
-  padding: 64px 107px 54px 107px;
-}
-.rectangle1Card h4{
-
-  font-family: 'DM Serif Display', serif;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 32px;
-  color:#000000;
-}
-.rectangle1Card p{
-  margin-top:15px;
-  margin-bottom: 18px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #00000080;
-  border-bottom: 1px solid #000000 ;
-}
-.rectangle1Card a{
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 24px;
-  color: #000000;
-}
 @media screen and (max-width:480px){
     .container{
         width: 100%;
     }
-    .explore{
-        background-color: #F1B505;
-        padding: 13px 55px 13px 55px;
-        border-radius: 3px;
-        color: #FFFFFF;
-    }
+    
     .sliderBtn{
       margin-top: 25px;
     }
@@ -191,10 +130,65 @@
       display: flex;
       flex-direction: column;
     }
-    .rectangle1CardImg{
-      display: flex;
-      justify-content: center;
+    .rectangle1{
+      padding-left: 15px;
+      padding-right: 14px;
     }
+    .rectangle1Header h3{
+      padding-top: 42px;
+      font-family: 'DM Serif Display', serif;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 48px;
+      text-align: center;
+      color: #000000;
+    }
+    .rectangle1Header p{
+      margin-top: 31px;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 32px;
+      text-align: center;
+      color: #000000;
+    
+    }
+    .rectangle1Card{
+      background: #FFFFFF;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.297017);
+      border-radius: 5px;
+      margin-top: 16px;
+      padding: 64px 32px 21px;
+    
+    }
+    
+    .rectangle1CardImg img{
+      margin: 0 auto 55px;
+    }
+    
+    .rectangle1Card h4{
+    
+      font-family: 'DM Serif Display', serif;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 32px;
+      color:#000000;
+    }
+    .rectangle1Card p{
+      margin-top:15px;
+      margin-bottom: 18px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #00000080;
+      border-bottom: 1px solid #00000080 ;
+    }
+    .rectangle1Card a{
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      color: #000000;
+    }
+    
 }
 
 
