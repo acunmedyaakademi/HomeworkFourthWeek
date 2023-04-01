@@ -114,7 +114,31 @@
   border-radius: 3px;
   color: #FFFFFF;
 }
+.rectangle1{
+  background: #FFDD78;
+}
+.rectangle1{
+  padding-left: 15px;
+  padding-right: 14px;
+}
+.rectangle1Header h3{
+  padding-top: 42px;
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #000000;
+}
+.rectangle1Header p{
+  margin-top: 31px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #000000;
 
+}
 @media screen and (max-width:480px){
     .container{
         width: 100%;
@@ -128,6 +152,7 @@
     .sliderBtn{
       margin-top: 25px;
     }
+    
 }
 
 
