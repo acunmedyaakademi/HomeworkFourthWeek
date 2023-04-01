@@ -121,6 +121,9 @@
   background: #f5f6fc !important; 
   
 }
+.rectangle3{
+  background: #434CCC;
+}
 
 @media screen and (max-width:480px){
     .container{
@@ -277,7 +280,68 @@
       line-height: 24px;
       color: #000000;
     }
+    .rectangle3Header{
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .rectangle3Header h5{
+      padding-top: 63px;
+      margin-bottom: 19px;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 24px;
+      letter-spacing: 0.3em;
+      text-align: center;
+      color: #FFFFFF;
+    }
+    .rectangle3Header h3{
+      font-family: 'DM Serif Display', serif;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 48px;
+      text-align: center;
+      color: #FFFFFF;
+      margin-bottom: 31px;
 
+    }
+    .rectangle3Header p{
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 32px;
+      text-align: center;
+      color: #FFFFFF;
+      width: 346px;
+    }
+    .rectangle3Img{
+      background-image: url('../img/commune.png');
+      height: 800px;
+      background-repeat: no-repeat;
+
+    }
+    .rectangle3Img span{
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      color: #FFFFFF80;
+    }
+    .rectangle3Img h3{
+      font-family: 'DM Serif Display', serif;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 48px;
+      color: #FFFFFF;
+    }
+    
+    .rectangle3Img a{
+      border: 1px solid #FFFFFF4D;
+      border-radius: 5px;
+      padding: 13px 43px 11px 43px;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      color: #FFFFFF;
+    }
     
 }
 
