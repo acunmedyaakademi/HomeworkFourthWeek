@@ -1,0 +1,16 @@
+* {
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+}
+
+.button {
+    background: #F1B505;
+    border-radius: 5px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 13px 55.5px 11px;
+    display: inline-block;
+}
+
+
