@@ -566,4 +566,230 @@
     color: rgba(0, 0, 0, 0.5);
 }
 
-/* Molestiae */
+/* Molestiae end*/
+/* unup */
+
+.unup {
+    background: #434CCC;
+    padding: 0 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 115px;
+}
+
+.unupleft {
+    width: 470px;
+}
+.unupleft h5 {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.unupleft h2 {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    color: #FFFFFF;
+    margin-top: 21px;
+}
+
+.unupleft p {
+    margin-top: 29px;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.unupleft a {
+    font-family: 'DM Sans';
+    display: inline-block;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 13px 56px;
+    background: #F1B505;
+    border-radius: 5px;
+    margin-top: 32px;
+}
+
+/* unup end*/
+/* scriptorem */
+
+.scriptorem {
+    background-color: #f5f6fc;
+    padding: 63px 135px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.scriptoremup h5 {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.scriptoremup h2 {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    text-align: center;
+    color: #000000;
+    margin-top: 21px;
+}
+
+.scriptoremup p {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #000000;
+    width: 570px;
+    margin-top: 29px;
+}
+
+.scriptoremcards {
+    display: flex;
+    margin-top: 36px;
+    gap: 30px ;
+    justify-content: center;
+}
+
+.scriptoremcard {
+    display: flex;
+    flex-direction: column;
+    padding: 33px 32px 21px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.297017);
+    border-radius: 5px;
+    justify-content: flex-start;
+    width: 370px;
+}
+
+
+.scriptoremcard h4 {
+    margin-top: 21px;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.scriptoremcardunder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 43px;
+}
+
+.scriptoremcardunder p {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-right: auto;
+
+}
+
+.scriptoremcardlinks {
+    display: flex;
+    gap: 10px;
+}
+
+.adfall {
+    margin-top: 95px;
+}
+
+.adfall h5{
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.adfall h2 {
+    margin-top: 21px;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    text-align: center;
+    color: #000000;
+}
+
+.adfall p {
+    width: 570px;
+    margin-top: 29px;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #000000;
+}
+
+.adfallcards {
+    margin-top: 52px;
+    margin-bottom: 112px;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.adfallcard {
+    display: flex;
+    gap: 25px;
+    padding: 24px 32px 16px 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.297017);
+    border-radius: 5px;
+}
+
+.adfallcardright {
+    width: 238px;
+}
+
+.adfallcardright h4 {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.adfallcardright p {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* scriptorem end */
