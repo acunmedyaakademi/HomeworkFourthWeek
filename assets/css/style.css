@@ -124,6 +124,9 @@
 .rectangle3{
   background: #434CCC;
 }
+.rectangle5{
+  background: #434CCC;
+}
 
 
 /* MEDIA QUERY */
@@ -463,7 +466,37 @@
       color:#00000080 ;
       padding-top: 23px;
     }
-
+    .rectangle5Text{
+      padding-left: 14px;
+      padding-top: 63px;
+    }
+    .rectangle5Text h5{
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.3em;
+      color: #FFFFFF;
+      text-transform: uppercase;
+    }
+    .rectangle5Text h3{
+      font-family: 'DM Serif Display', serif;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 48px;
+      color: #FFFFFF;
+      margin-bottom: 31px;
+    }
+    .rectangle5Text p{
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 32px;
+      color: #FFFFFF;
+      margin-bottom: 24px;
+    }
+    .rectangle5Img{
+      margin-top: 64px;
+    }
+    
     
     
     
