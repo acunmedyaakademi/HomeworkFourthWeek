@@ -334,7 +334,7 @@
 }
 
 .textonpicture {
-    background-image: url("/HomeworkFourthWeek/img/download.png");
+    background-image: url("../img/download.png");
     position: relative;
     top: 52px;
     height: 512px;
@@ -395,13 +395,13 @@
     gap: 30px;
 }
 .erroribus {
-    background-image: url("/HomeworkFourthWeek/img/download2.jpg");
+    background-image: url("../img/download2.jpg");
     width: 570px;
     height: 512px;
 }
 
 .scripserit {
-    background-image: url("/HomeworkFourthWeek/img/download3.jpg");
+    background-image: url("../img/download3.jpg");
     width: 570px;
     height: 512px;
 }
@@ -755,5 +755,4 @@
     line-height: 24px;
     color: rgba(0, 0, 0, 0.5);
 }
-
 /* scriptorem end */
