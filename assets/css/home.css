@@ -30,10 +30,16 @@
     display: none;
 }
 
-.rectangle-1 {
-    padding: 16px 135px 0;
+.container-1 {
     background: #434CCC;
+}
+
+.rectangle-1 {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-top: 16px;
     height: 768px;
+    position: relative;
 }
 
 .desktop-nav {
@@ -68,11 +74,6 @@
 
 /* hero start */
 
-.hero {
-    display: flex;
-    justify-content: space-between;
-}
-
 .hero-text {
     margin-top: 111px;
 }
@@ -104,9 +105,10 @@
     width: 370px;
 }
 
-.hero-img img{
-    position: relative;
-    left: 120px;
+.desktop-hero-img {
+    position: absolute;
+    top: 45px;
+    left: 300px;
 }
 
 /* hero finish */
@@ -118,9 +120,15 @@
 
 
 /* rectangle-2 start */
-.rectangle-2 {
+
+.container-2 {
     background: #FFDD78;
-    padding: 60px 135px 80px;
+}
+
+.rectangle-2 {
+    padding: 60px 0 80px;
+    max-width: 1170px;
+    margin: 0 auto;
 }
 
 .rectangle-2-text h3 {
@@ -142,6 +150,7 @@
 .rectangle-2-cards {
     margin-top: 36px;
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
 }
@@ -153,8 +162,24 @@
     padding: 64px 32px 21px;
 }
 
+.card-2:nth-child(2) {
+    padding-top: 73px;
+}
+
+.card-2:nth-child(3) {
+    padding-top: 58px;
+}
+
 .main-img-2 {
-    margin: 0 auto 55px;
+    margin: 0 auto 54px;
+}
+
+.card-2:nth-child(2) .main-img-2{
+    margin-bottom: 63px;
+}
+
+.card-2:nth-child(3) .main-img-2{
+    margin-bottom: 48px;
 }
 
 .card-2 h4 {

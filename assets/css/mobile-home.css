@@ -27,19 +27,19 @@
 
 /* .rectangle-1 start */
 .desktop-nav {
-    display: none !important;
+    display: none;
 }
 
 
 .rectangle-1 {
     background: #434CCC;
-    padding: 0 15px !important;
-    height: 800px !important;
+    padding: 0 15px;
+    height: 800px;
 }
 
 .mobile-nav {
     margin-bottom: 31px;
-    display: block !important;
+    display: block;
 }
 
 .navbar {
@@ -57,29 +57,29 @@
 
 
 /* hero start */
-.hero-img {
+.desktop-hero-img {
     display: none;
 }
 
 .hero-text {
-    margin-top: 0 !important;
+    margin-top: 0;
 }
 
 .mobile-hero-img {
-    display: block !important;
+    display: block;
 }
 
 .rectangle-1 h2 {
-    width: 258px !important;
-    margin-bottom: 19px !important;
+    width: 258px;
+    margin-bottom: 19px;
 }
 
 .rectangle-1 h5 {
-    margin-bottom: 5px !important;
+    margin-bottom: 5px;
 }
 
 .rectangle-1 p {
-margin-bottom: 25px !important;
+margin-bottom: 25px;
 }
 /* hero finish */
 
@@ -90,12 +90,12 @@ margin-bottom: 25px !important;
 /* rectangle-2 start */
 
 .rectangle-2 {
-    padding: 42px 15px 80px !important;
+    padding: 42px 15px 80px;
 }
 
 .rectangle-2-cards {
-    margin-top: 50px !important;
-    display: block !important;
+    margin-top: 50px;
+    display: block;
 }
 
 .card-2 {
@@ -117,6 +117,7 @@ margin-bottom: 25px !important;
     margin-bottom: 18px;
     padding-bottom: 25px;
     border-bottom: 1px solid #00000080;
+    width: 282px;
 }
 
 .card-2 a {
