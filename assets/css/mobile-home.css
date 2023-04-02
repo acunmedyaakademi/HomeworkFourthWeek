@@ -324,4 +324,71 @@ margin-bottom: 25px;
 
 /* rectangle-6 finish */
 
+
+
+
+/* rectangle-7 start */
+.rectangle-7 {
+    padding: 47px 15px 80px;
+}
+
+.header-7 h2 {
+    font-size: 40px;
+    line-height: 48px;
+    margin: 19px 0 31px;
+}
+
+.header-7 {
+    margin-bottom: 52px;
+}
+
+.header-7 p {
+    width: 100%;
+}
+
+.staff-cards-7 {
+    display: block;
+}
+
+.staff-7 {
+    margin-bottom: 16px;
+}
+
+.staff-7:last-child {
+    margin-bottom: 0;
+}
+
+.cards-7 {
+    gap: 16px;
+}
+/* rectangle-7 finish */
+
+
+
+
+
+/* rectangle-8 start */
+
+.rectangle-8 {
+    padding: 80px 15px 57px;
+    align-items: flex-start;
+}
+
+.arrows-8 {
+    margin-top: 80px;
+}
+
+.content-8 {
+    width: 287px;
+}
+
+.for-mobile {
+    display: block;
+}
+
+.for-mobile img {
+    margin-bottom: 33px;
+}
+
+/* rectangle-8 finish */
 }
