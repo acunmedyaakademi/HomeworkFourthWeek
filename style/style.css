@@ -230,7 +230,7 @@ a {
 
 .tempgrid {
   height: 1000000px;
-  display: grid;
+  display: none;
   grid-template-columns: repeat(12, 1fr);
   margin: auto 15px;
   grid-column-gap: 10px;
@@ -294,7 +294,7 @@ a {
 .parent {
   position: fixed;
   z-index: 999;
-  display: grid;
+  display: none;
   width: 100%;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(12, 1fr);
