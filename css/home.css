@@ -319,7 +319,7 @@
 } 
 
 .molestiaeheader {
-    padding-top: 74px;
+    padding-top: 79px;
 }
 
 .molestiaeheader h5 {
@@ -398,6 +398,7 @@
 .containerpictures {
     background-color: #f5f6fc;
 }
+
 .pictures {
     width: 1170px;
     margin: 0 auto; 
@@ -578,13 +579,15 @@
 /* Molestiae end*/
 /* unup */
 
-.unup {
+.containerunup {
     background: #434CCC;
-    padding: 0 135px;
+}
+
+.unup {
+    width: 1170px;
+    margin: 0 auto; 
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 115px;
 }
 
 .unupleft {
