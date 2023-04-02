@@ -9,6 +9,7 @@
   */
   * {
     margin: 0;
+    padding: 0;
   }
   /*
     3. Allow percentage-based heights in the application
@@ -55,4 +56,8 @@
   a {
     text-decoration: none;
     color: #fff;
+  }
+
+  ol, ul {
+    list-style: none;
   }

@@ -26,14 +26,20 @@
 
 
 /* .rectangle-1 start */
-.rectangle-1 {
-    background: #434CCC;
-    padding: 0 15px;
-    height: 768px;
+.desktop-nav {
+    display: none !important;
 }
 
-nav {
+
+.rectangle-1 {
+    background: #434CCC;
+    padding: 0 15px !important;
+    height: 800px !important;
+}
+
+.mobile-nav {
     margin-bottom: 31px;
+    display: block !important;
 }
 
 .navbar {
@@ -51,34 +57,29 @@ nav {
 
 
 /* hero start */
-.hero {
+.hero-img {
+    display: none;
 }
 
-.rectangle-1 h5 {
-    line-height: 24px;
-    letter-spacing: 0.3em;
-    text-transform: uppercase;
-    margin-bottom: 5px;
-    font-family: 'DM Sans', sans-serif;
-}
-
-.rectangle-1 h2 {
-    font-size: 56px;
-    line-height: 64px;
-    margin-bottom: 19px;
-    width: 258px;
-}
-
-.rectangle-1 p {
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 700;
-    line-height: 24px;
-    margin-bottom: 25px;
+.hero-text {
+    margin-top: 0 !important;
 }
 
 .mobile-hero-img {
-    position: relative;
-    bottom: 35px;
+    display: block !important;
+}
+
+.rectangle-1 h2 {
+    width: 258px !important;
+    margin-bottom: 19px !important;
+}
+
+.rectangle-1 h5 {
+    margin-bottom: 5px !important;
+}
+
+.rectangle-1 p {
+margin-bottom: 25px !important;
 }
 /* hero finish */
 
@@ -89,42 +90,18 @@ nav {
 /* rectangle-2 start */
 
 .rectangle-2 {
-    background: #FFDD78;
-    padding: 42px 15px 80px;
+    padding: 42px 15px 80px !important;
 }
-
-.rectangle-2-text h3 {
-    font-size: 56px;
-    line-height: 64px;
-    text-align: center;
-    color: #000;
-}
-
-.rectangle-2-text p {
-    font-family: 'DM Sans', sans-serif;
-    font-size: 20px;
-    line-height: 32px;
-    text-align: center;
-    color: #000;
-    margin-top: 31px;
-}
-
 
 .rectangle-2-cards {
-    margin-top: 50px;
+    margin-top: 50px !important;
+    display: block !important;
 }
 
 .card-2 {
-    background: #FFFFFF;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.297017);
-    border-radius: 5px;
-    padding: 64px 32px 21px;
     margin-bottom: 16px;
 }
 
-.main-img-2 {
-    margin: 0 auto 55px;
-}
 
 .card-2 h4 {
     color: #000;
@@ -409,13 +386,13 @@ nav {
 
 
 /* rectangle-6 start */
-.rectangle-6 {
+.container-6 {
     padding: 63px 15px 64px;
     background: #434CCC;
     
 }
 
-.rectangle-6 h5 {
+.container-6 h5 {
     font-family: 'DM Sans', sans-serif;
     line-height: 24px;
     letter-spacing: 0.3em;
@@ -423,17 +400,21 @@ nav {
     margin-bottom: 19px;
 }
 
-.rectangle-6 h3 {
+.container-6 h3 {
     font-size: 40px;
     line-height: 48px;
     margin-bottom: 31px;
 }
 
-.rectangle-6 p {
+.container-6 p {
     font-family: 'DM Sans', sans-serif;
     font-size: 20px;
     line-height: 32px;
     margin-bottom: 24px;
+}
+
+.mobile-bitmap {
+    width: 100%;
 }
 
 .web-bitmap {

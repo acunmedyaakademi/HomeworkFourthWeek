@@ -3,6 +3,9 @@
     font-weight: 400;
 }
 
+/* font-family: 'DM Sans', sans-serif; */
+
+
 .button {
     background: #F1B505;
     border-radius: 5px;
@@ -13,4 +16,172 @@
     display: inline-block;
 }
 
+.button-plus {
+    display: inline-block;
+    padding: 14px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
 
+
+/* rectangle-1 start */
+
+.mobile-nav {
+    display: none;
+}
+
+.rectangle-1 {
+    padding: 16px 135px 0;
+    background: #434CCC;
+    height: 768px;
+}
+
+.desktop-nav {
+   display: flex;
+   justify-content: space-between;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.desktop-nav ul {
+    display: flex;
+    gap: 30px;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 24px;
+}
+
+.desktop-nav h4 {
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.desktop-nav .button {
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 13px 56.5px 11px;
+}
+
+
+/* hero start */
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-text {
+    margin-top: 111px;
+}
+
+.mobile-hero-img {
+    display: none;
+}
+
+.rectangle-1 h5 {
+    line-height: 24px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.rectangle-1 h2 {
+    font-size: 56px;
+    line-height: 64px;
+    margin-bottom: 32px;
+    width: 515px;
+}
+
+.rectangle-1 p {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 41px;
+    width: 370px;
+}
+
+.hero-img img{
+    position: relative;
+    left: 120px;
+}
+
+/* hero finish */
+
+/* rectangle-1 finish */
+
+
+
+
+
+/* rectangle-2 start */
+.rectangle-2 {
+    background: #FFDD78;
+    padding: 60px 135px 80px;
+}
+
+.rectangle-2-text h3 {
+    font-size: 56px;
+    line-height: 64px;
+    text-align: center;
+    color: #000;
+}
+
+.rectangle-2-text p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #000;
+    margin-top: 30px;
+}
+
+.rectangle-2-cards {
+    margin-top: 36px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.card-2 {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.297017);
+    border-radius: 5px;
+    padding: 64px 32px 21px;
+}
+
+.main-img-2 {
+    margin: 0 auto 55px;
+}
+
+.card-2 h4 {
+    color: #000;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 15px;
+}
+
+.card-2 p {
+    font-family: 'DM Sans', sans-serif;
+    color: #00000080;
+    line-height: 24px;
+    margin-bottom: 18px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #00000080;
+    width: 306px;
+}
+
+.card-2 a {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    color: #000;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+/* rectangle-2 finish */
