@@ -393,7 +393,7 @@
     }
     .scripserit{
       background-image: url('/assets/img/scripserit.png');
-      height: 800px;
+      height: 530px;
       background-repeat: no-repeat;
       margin-left: 15px;
     }
@@ -415,6 +415,56 @@
       padding-top: 19px;
       margin-left: 30px;
     }
+    .allWorks{
+      text-align: center;
+      margin-top: 48px;
+    }
+    .allWorks a{
+      background-color: transparent;
+      border: 1px solid #434CCC;
+      color:#434CCC;
+      border-radius: 5px;
+      padding: 13px 50px;
+    }
+    .rectangle4BannerTextHeader h3{
+      font-family: 'DM Serif Display', serif;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 48px;
+      color: #000000;
+      margin-bottom:31px ;
+    }
+    .rectangle4BannerTextHeader p{
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 32px;
+      color: #000000;
+      margin-bottom: 46px;
+      margin-left: 15px;
+    }
+    
+    .rectangle4BannerTextContent1 img,.rectangle4BannerTextContent2 img{
+      margin-left: 15px;
+    }
+    .rectangle4BannerTextContent1 h4,.rectangle4BannerTextContent2 h4{
+      margin-left: 15px;
+      margin-top: 16px;
+      font-family: 'DM Serif Display', serif;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 32px;
+    }
+    .rectangle4BannerTextContent1 p,
+    .rectangle4BannerTextContent2 p{
+      margin-left: 15px;
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 400;
+      color:#00000080 ;
+      padding-top: 23px;
+    }
+
+    
     
     
 }
