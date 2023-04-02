@@ -755,4 +755,546 @@
     line-height: 24px;
     color: rgba(0, 0, 0, 0.5);
 }
+
 /* scriptorem end */
+/* dicta */
+
+.containerdicta {
+    background: #434CCC;
+    
+}
+
+.dicta {
+    width: 1170px;
+    margin: 0 auto; 
+    display: flex;
+    align-items: center;
+    padding-top: 112px;
+    padding-bottom: 114px;
+}
+
+.dictabuttons {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-right: 84px;
+}
+
+.dictabuttons a {
+    width: 48px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    padding: 14px 18px 13px 17px;
+    color: #fff;
+}
+
+.dictaleft {
+    margin-left: 96px;
+}
+
+.dictaleft h5 {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.dictaleft h4 {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-top: 33px;
+}
+
+.dictaleft p {
+    margin-top: 22px;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.dictaleft h6 {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* dicta end */
+/* petentium */
+
+.containerpetentium {
+    background-color: #f5f6fc;
+}
+
+.petentium {
+    width: 1170px;
+    margin: 0 auto; 
+    padding-top: 79px;
+    text-align: center;
+}
+
+.petentium h5 {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}
+
+.petentium h2 {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    margin-top:21px;
+    margin-bottom: 29px;
+}
+
+.petentium h6 {
+    margin: 0 auto;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    width: 570px;
+}
+
+.petentiumsocialmedia {
+    display: flex;
+    margin-top: 52px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.petentium a {
+    display: inline-block;
+    margin: 0 auto;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    color: #434CCC;
+    padding: 13px 42px 11px 42px;
+    text-decoration: none;
+    border: 1px solid rgba(67, 76, 204, 0.32);
+    border-radius: 5px;
+    margin-top: 72px;
+    margin-bottom: 96px;
+}
+
+/* petentium end */
+/* novum */
+
+.novum {
+    width: 1170px;
+    margin: 0 auto; 
+    padding-top: 62px;
+}
+
+.novumup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.novum h5{
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}
+
+.novumup h2 {
+    margin-top: 21px;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+}
+
+.novumup a {
+    font-family: 'DM Sans';
+    font-weight: 700;
+    color: #434CCC;
+    text-decoration: none;
+    border: 1px solid rgba(67, 76, 204, 0.32);
+    border-radius: 5px;
+    padding: 13px 54px 11px 54px;
+}
+
+.novumcards {
+    display: flex;
+    gap: 30px; 
+    margin-top: 36px;
+}
+
+.novumcard {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.297017);
+    border-radius: 5px;
+    padding: 32px 32px 21px 32px;
+}
+
+.novumcard p {
+    margin-top: 15px;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.5);
+}
+ 
+.novumcard h4 {
+    margin-top: 17px;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.novumlernmore {
+    display: flex;
+    margin-top: 43px;
+    gap: 7px;
+}
+
+.novumlernmore a {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.viderer {
+    margin-top: 208px;
+    display: flex;
+    gap: 30px;
+    padding-bottom: 112px;
+}
+
+.vidererleft h5 {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}
+
+.vidererleft h4 {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 33px;
+}
+
+.vidererinsta {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    gap: 14px;
+}
+
+.vidererinsta img {
+    color: #434CCC;
+    border: 1px solid rgba(67, 76, 204, 0.32);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.vidererinsta p {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* novum end */
+/* maiestatis */
+
+.containermaiestatis {
+    background: #FFDD78;
+}
+
+.maiestatis {
+    width: 1170px;
+    margin: 0 auto; 
+    padding-top: 21px;
+    display: flex;
+    align-items: center;
+}
+
+.maiestatis img {
+    position: relative;
+}
+
+.maiestatisleft h5 {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}
+
+.maiestatisleft h2 {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    margin-top: 21px;
+}
+
+.maiestatisleft p {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 29px;
+}
+
+.maiestatisleftinput {
+    margin-top: 32px;
+    display: flex;
+    gap: 30px;
+}
+
+.maiestatisleftinput input {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    border: 1px solid #DADADA;
+    border-radius: 5px;
+    padding-top: 13px;
+    padding-bottom: 11px;
+    padding-left: 16px;
+    width: 270px;
+}
+
+.maiestatisleftinput a {
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #434CCC;
+    border-radius: 5px;
+    padding: 13px 45px 11px;
+    text-decoration: none;
+}
+
+.maiestatis img {
+    margin-bottom: 45px;
+}
+
+/* maiestatis end */
+/* ancillae */
+
+.containerancillae {
+    background: #434CCC;
+}
+
+.ancillae {
+    width: 1170px;
+    margin: 0 auto; 
+    padding-top: 96px;
+    padding-bottom: 96px;
+    display: flex;
+    gap: 130px;
+}
+
+.ancillaeimgcontainer {
+    align-items: center;
+    position: relative;
+}
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ancillaeright h5 {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.ancillaeright h2 {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    color: #FFFFFF;
+    margin-top: 21px;
+    text-align: left;
+    margin-bottom: 52px;
+}
+
+.ancillaeinputs {
+    display: flex;
+    flex-direction: column;
+    gap: 32px; 
+    width: 470px;
+}
+
+.ancillaeinputs input {
+    padding-top: 13px;
+    padding-bottom: 11px;
+    padding-left: 16px;
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    border-radius: 5px;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.ancillaeright a {
+    margin-top: 61px;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #F1B505;
+    border-radius: 5px;
+    padding: 13px 57px 11px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* ancillae end */
+/* end */
+
+.containerend {
+    background-color: #f5f6fc;
+}
+
+.end {
+    width: 1170px;
+    margin: 0 auto; 
+    padding-top: 72px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 55px;
+}
+
+.endlogo {
+    width: 270px;
+}
+
+.endlogo h4 {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.endlogo p {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 23px;
+}
+
+.endlinks {
+    margin-top: 16px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.endcause {
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.endflex {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 24px;
+}
+
+.endflex p {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;  
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.endright {
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    gap: 39px;
+}
+
+.endrightup {
+    display: flex;
+    gap: 30px;
+}
+
+.endrightup img {
+    width: 70px;
+    height: 48px;
+}
+
+.endgirlleft p {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.endgirlleft h6 {
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.created {
+    width: 1170px;
+    margin: 0 auto; 
+    padding-top: 72px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 29px;
+}
+
+.created p {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* end end */
