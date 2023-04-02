@@ -176,6 +176,10 @@ a {
   align-items: center;
 }
 
+.ai-start {
+  align-items: flex-start;
+}
+
 .jc-between {
   justify-content: space-between;
 }
@@ -204,6 +208,10 @@ a {
   gap: 33px;
 }
 
+.gap-10 {
+  gap: 10px;
+}
+
 .ml-0 {
   margin-left: 0;
 }
@@ -214,6 +222,10 @@ a {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.gap-20 {
+  gap: 20px;
 }
 
 .tempgrid {
@@ -834,7 +846,8 @@ header a {
 
 /*-------------------- Blog --------------------*/
 .blog {
-  padding: 46px 0 0 0;
+  padding: 46px 0 48px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .blogText h3 {
@@ -843,6 +856,10 @@ header a {
 
 .blogText h2 {
   margin-bottom: 38px;
+}
+
+.blogCards {
+  margin-bottom: 48px;
 }
 
 .blogCard {
@@ -877,4 +894,209 @@ header a {
 
 .blogButton a {
   gap: 6px;
+}
+
+.blogButtonDown a {
+  border-radius: 5px;
+  color: var(--blue);
+  border: 1px solid var(--blue-30);
+  width: 170px;
+  height: 48px;
+}
+
+/*-------------------- Portfolio --------------------*/
+.portfolio {
+  padding: 62px 0 84px 0;
+}
+
+.portfolioText {
+  margin-bottom: 48px;
+}
+
+.portfolioText div {
+  gap: 14px;
+}
+
+.portfolioText h3 {
+  margin-bottom: 33px;
+}
+
+.portfolioText h2 {
+  margin-bottom: 40px;
+}
+
+.instagramButton {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  border: 1px solid var(--blue-30);
+  border-radius: 5px;
+
+}
+
+.instagramButton img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.portfolioImage img {
+  border-radius: 5px;
+}
+
+/*-------------------- Contact --------------------*/
+
+.contact {
+  background-image: url("../src/image/jpg/rectangleYellow.jpg");
+  background-repeat: repeat-x;
+  padding: 63px 0 0px 0;
+  background-color: var(--blue);
+}
+
+.contactText h3 {
+  margin-bottom: 19px;
+}
+
+.contactText h2 {
+  margin-bottom: 31px;
+}
+
+.contactText p {
+  margin-bottom: 36px;
+}
+
+.contactText form {
+  margin-bottom: 16px;
+}
+
+.contactText input {
+  width: 100%;
+  height: 48px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.contact a {
+  background-color: var(--blue);
+  width: 170px;
+  height: 48px;
+  border-radius: 5px;
+  margin-bottom: 64px;
+  color: var(--white);
+}
+
+.contactForm {
+  color: var(--white);
+}
+
+.contactFormFirst {
+  position: relative;
+  margin-bottom: 47px;
+}
+
+
+
+.map {
+  border-radius: 5px;
+}
+
+.location {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contactFormSecond h3 {
+  margin-bottom: 19px;
+}
+
+.contactFormSecond h2 {
+  margin-bottom: 38px;
+}
+
+.contactFormSecond form {
+  gap: 32px;
+  margin-bottom: 48px;
+}
+
+.contactFormSecond input {
+  width: 100%;
+  height: 48px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 0 16px;
+}
+
+.contactFormSecond textarea {
+  width: 100%;
+  height: 160px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 16px;
+}
+
+.contactFormSecond a {
+  background-color: var(--yellow);
+  width: 170px;
+  height: 48px;
+  border-radius: 5px;
+  margin-bottom: 64px;
+  color: var(--white);
+}
+
+/*-------------------- Footer --------------------*/
+
+.footer {
+  padding: 72px 0 0px 0;
+}
+
+.footerLeft {
+  margin-bottom: 79px;
+}
+
+.footerLeft>a img {
+  margin-bottom: 23px;
+}
+
+.footerLeft>p {
+  margin-bottom: 23px;
+  color: var(--black-50);
+}
+
+.footerMid {
+  gap: 120px;
+  margin-bottom: 73px;
+}
+
+.footerMid h3 {
+  margin-bottom: 24px;
+}
+
+.footerMid li {
+  margin-bottom: 8px;
+}
+
+.footerRight {
+  gap: 40px;
+}
+
+.footerRight div {
+  gap: 20px;
+}
+
+.footerRight img {
+  border-radius: 5px;
+  width: 70px;
+  height: 48px;
+}
+
+.footerBottom {
+  padding: 27px 15px 0 15px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  gap: 8px;
+  color: var(--black-50);
 }
