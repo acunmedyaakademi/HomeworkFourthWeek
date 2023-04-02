@@ -1,10 +1,13 @@
-.navbar {
+.containernavbar {
     background-color: blue;
-    
+}
+
+.navbar {
+    width: 1170px;
+    margin: 0 auto;  
 }
 
 .navbarheader {  
-    width: 1200px;
     padding-top: 16px;
     margin: 0 auto;
     display: flex;
@@ -52,11 +55,14 @@
 }
 
 .expetenda {
-   
     display: flex;
     align-items: center;
-    justify-content: center;
     color: #fff;
+}
+
+.expetenda img {
+    position: relative;
+    right: 10px;
 }
 
 .expetendaleft {
@@ -106,8 +112,13 @@
 
 /* Vivendo */
 
+.containervivendo {
+    background-color: #FFDD78;
+}
+
 .vivendo {
-    background: #FFDD78;
+    width: 1170px;
+    margin: 0 auto;  
 }
 
 .vivendoheader {
@@ -141,10 +152,11 @@
 }
 
 .card {
-    border-radius: 5px;
     height: 416px;
     padding: 0 30px ;
-    background-color: #fff;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.297017);
+    border-radius: 5px;
 }
 
 .card1 img {
@@ -178,16 +190,19 @@
 
 /* Vivendo End */
 /* Aliquip */
+.containeraliquip {
+    background-color: #f5f6fc;
+}
 
 .aliquip {
-    background-color: #f5f6fc;
+    width: 1170px;
+    margin: 0 auto; 
     justify-content: center;
     display: flex;
 }
 
 .aliquipheader {
     padding: 63px 235px;
-    width: 1170px;
 }
 
 .aliquipheader h5 {
@@ -293,26 +308,24 @@
 /* Aliquip End */
 /* Molestiae */
 
-.molestiae {
+.containermolestiae {
     background: #434CCC;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 768px;
 }
 
+.molestiae {
+    width: 1170px;
+    height: 768px;
+    margin: 0 auto; 
+} 
+
 .molestiaeheader {
-    padding: 74px 135px 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding-top: 74px;
 }
 
 .molestiaeheader h5 {
     font-family: 'DM Sans';
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
     text-align: center;
     letter-spacing: 0.3em;
     text-transform: uppercase;
@@ -338,17 +351,14 @@
     color: #FFFFFF;
     margin: 29px auto 0;
     width: 570px;
+    height: 83px;
 }
 
 .textonpicture {
     background-image: url("/img/download.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
     position: relative;
     top: 52px;
-    width: 1170px;
-    height: 521px;
-    border-radius: 5px;
+    height: 512px;
 }
 
 .textpadding {
@@ -360,8 +370,6 @@
 .textpadding p {
     font-family: 'DM Sans';
     font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
     color: rgba(255, 255, 255, 0.5);
 
 }
@@ -378,9 +386,6 @@
 .textpadding a {
     font-family: 'DM Sans';
     font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 5px;
     text-decoration: none;
@@ -390,8 +395,12 @@
     margin-top: 36px;
 }
 
-.pictures {
+.containerpictures {
     background-color: #f5f6fc;
+}
+.pictures {
+    width: 1170px;
+    margin: 0 auto; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -401,7 +410,7 @@
     background-color: #f5f6fc;
     justify-content: center;
     display: flex;
-    padding: 128px 135px 0px;
+    margin-top: 128px;
     gap: 30px;
 }
 .erroribus {
@@ -628,8 +637,8 @@
 /* scriptorem */
 
 .scriptorem {
+    padding-top: 63px;
     background-color: #f5f6fc;
-    padding: 63px 135px 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -757,19 +766,22 @@
 .adfallcards {
     margin-top: 52px;
     margin-bottom: 112px;
-    width: 1200px;
+    gap: 25px;
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    justify-content: space-between;
 }
 
 .adfallcard {
     display: flex;
-    gap: 25px;
     padding: 24px 32px 16px 32px;
     background: #FFFFFF;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.297017);
     border-radius: 5px;
+}
+
+.adfallcard img {
+    width: 50px;
 }
 
 .adfallcardright {
