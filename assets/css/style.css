@@ -331,7 +331,7 @@
       padding-top: 25px;
       margin-top:40px
     }
-    .rectangle3Img span,h3{
+    .rectangle3Img span, .rectangle3Img h3{
       padding-left: 15px;
     }
     .rectangle3Img span{
@@ -365,7 +365,7 @@
       background-image: url('/assets/img/erroribus.png');
       height: 530px;
       background-repeat: no-repeat;
-      margin-top: 160px;      
+      margin-top: 120px;      
       margin-left: 15px;
     }
     .erroribus p{
@@ -466,6 +466,9 @@
       color:#00000080 ;
       padding-top: 23px;
     }
+    .rectangle5{
+      margin-top: 62px;
+    }
     .rectangle5Text{
       padding-left: 14px;
       padding-top: 63px;
@@ -477,6 +480,7 @@
       letter-spacing: 0.3em;
       color: #FFFFFF;
       text-transform: uppercase;
+      margin-bottom: 19px;
     }
     .rectangle5Text h3{
       font-family: 'DM Serif Display', serif;
@@ -485,6 +489,7 @@
       line-height: 48px;
       color: #FFFFFF;
       margin-bottom: 31px;
+      width: 237px;
     }
     .rectangle5Text p{
       font-weight: 400;
@@ -493,6 +498,7 @@
       color: #FFFFFF;
       margin-bottom: 24px;
     }
+    
     .rectangle5Img{
       margin-top: 64px;
     }
