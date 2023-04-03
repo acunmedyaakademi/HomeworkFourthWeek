@@ -279,7 +279,7 @@ nav {
 .clip-1-frame {
     position: absolute;
     height: 716px;
-    width: 1074px;
+    width: 993px;
     margin-left: 312px;
     top: 48px;
 }
@@ -288,8 +288,8 @@ nav {
     height: 716px;
     width: 1074px;
     object-fit: contain;
+    object-position: 68% 0;
 }
-
 
 /* Rectangle02 */
 
