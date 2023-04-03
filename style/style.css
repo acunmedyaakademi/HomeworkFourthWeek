@@ -109,6 +109,7 @@ a {
   color: inherit;
 }
 
+
 .none {
   display: none;
 }
@@ -366,7 +367,7 @@ a {
 /*-------------------- Navbar --------------------*/
 nav {
   background-color: var(--blue);
-  padding: 16px 0 0 0;
+  padding: 16px 0 16px 0;
 
 
 }
@@ -1206,10 +1207,11 @@ header a {
     background-color: transparent;
     padding: 0;
   }
+
   nav ul li:hover {
     background-color: transparent;
     border: none;
-  
+
     padding: 0;
   }
 
@@ -1517,6 +1519,10 @@ header a {
     flex-direction: row;
     justify-content: space-between;
     padding: 27px 135px 29px 135px;
+  }
+
+  .footerBottom>div {
+    flex-basis: 50%;
   }
 
 
