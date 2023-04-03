@@ -379,6 +379,44 @@ nav div {
   min-width: 346px;
 }
 
+nav ul {
+  position: fixed;
+  top: 60px;
+  left: -100%;
+  width: 100%;
+  text-align: center;
+  transition-property: left;
+  transition-duration: .5s;
+}
+
+nav ul li {
+  background-color: var(--yellow);
+  border: 2px solid var(--blue);
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  color: var(--white);
+}
+
+nav ul li:hover {
+  background-color: var(--blue);
+  border: 2px solid var(--yellow);
+
+  padding: 10px;
+}
+
+.checkbtn {
+  cursor: pointer;
+}
+
+#check {
+  display: none;
+}
+
+#check:checked~ul {
+  left: 0;
+}
+
 /*-------------------- Header --------------------*/
 
 header {
@@ -423,6 +461,10 @@ header a {
   position: absolute;
   left: 0;
 }
+
+
+
+
 
 /*-------------------- About --------------------*/
 
@@ -1130,6 +1172,7 @@ header a {
     color: var(--white);
   }
 
+
   .logo {
     width: 102px;
     height: 48px;
@@ -1146,10 +1189,28 @@ header a {
   }
 
   nav ul {
-    display: flex !important;
+    top: 0;
+    left: 0;
+    width: auto;
+    position: relative;
+    display: flex;
     margin-left: auto;
     margin-right: 40px;
     gap: 35px;
+  }
+
+  nav ul li {
+    border-radius: 0;
+    margin: 0;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+  }
+  nav ul li:hover {
+    background-color: transparent;
+    border: none;
+  
+    padding: 0;
   }
 
   .signupButton {
@@ -1159,6 +1220,11 @@ header a {
     height: 48px;
     border-radius: 5px;
     color: var(--white);
+  }
+
+  nav input,
+  label {
+    display: none;
   }
 
   /*-------------------- Header Desktop --------------------*/
