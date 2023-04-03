@@ -826,6 +826,47 @@
     justify-content: center;
     gap: 15px;
    }
+   .rectangle9{
+    background: #FFDD78;
+    margin-top: 84px;
+   }
+   .rectangle9Header{
+    padding-left: 15px;
+   }
+   .rectangle9Header h5{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.3em;
+    color: #000000;
+    text-transform: uppercase;
+    padding-top: 63px;
+    padding-bottom: 19px;
+   }
+   .rectangle9Header h3{
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+    width: 299px;
+   }
+   .rectangle9Header p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+   }
+   .rectangle9Subs{
+    display: flex;
+    flex-direction: column;
+   }
+   .rectangle9Subs input{
+    border: 1px solid #DADADA;
+    width: 346px;
+    height: 46px;
+    outline: none;
+   }
 }
 
 
