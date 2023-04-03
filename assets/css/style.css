@@ -604,8 +604,61 @@
       padding-right: 32px;
       padding-bottom: 16px;
     }
-    
-    
+    .rectangle7{
+      margin-top: 80px;
+      background: #434CCC;
+    }
+    .rectangle7Header{
+      padding-top:80px ;
+      display: flex;
+    }
+    .rectangle7ImgScroll{
+      margin-top: 50px;
+      margin-right: 11px;
+      margin-left: 15px;
+      ;
+    }
+    .arrowLeft,.arrowRight{
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      border-radius: 5px;
+      padding: 14px;
+      display: block;
+      margin-top: 16px;
+    }
+    .rectangle7Text{
+      margin-left: 73px;
+    }
+   .rectangle7Text h5{
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.3em;
+    color: #FFFFFF;
+   }
+   .rectangle7Text p{
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-top: 33px;
+    padding-bottom: 25px;
+   }
+   .p2{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+   }
+  .p3{
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF80;
+   }
+
     
 }
 
