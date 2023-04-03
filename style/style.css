@@ -109,6 +109,10 @@ a {
   color: inherit;
 }
 
+.none {
+  display: none;
+}
+
 .dm-serif {
   font-family: "DM Serif Display", serif;
 }
@@ -229,18 +233,18 @@ a {
 }
 
 .tempgrid {
-  height: 1000000px;
+  height: 22000px;
   display: none;
   grid-template-columns: repeat(12, 1fr);
-  margin: auto 15px;
-  grid-column-gap: 10px;
+  margin: auto 135px;
+  grid-column-gap: 31px;
   position: absolute;
   z-index: 999;
 }
 
 .asd {
   background-color: #44444420;
-  width: 20px;
+  width: 70px;
 }
 
 .div1 {
@@ -449,10 +453,14 @@ header a {
   background-color: var(--white);
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.297017);
   border-radius: 5px;
+  padding-top: 64px;
 }
 
 .card>img {
-  margin: 64px auto 54px auto;
+  margin-bottom: 54px;
+  height: 115px;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 5px;
 }
 
@@ -462,6 +470,7 @@ header a {
 
 .card p {
   color: var(--black-50);
+  margin-bottom: 25px;
 }
 
 .cardContent {
@@ -505,7 +514,7 @@ header a {
 }
 
 .clipCard h3 {
-  width: clamp(200px, 40%, 400px);
+  width: clamp(200px, 60%, 500px);
   margin-bottom: 23px;
 }
 
@@ -750,6 +759,10 @@ header a {
 
 .materials h4 {
   margin-bottom: 52px;
+}
+
+.materialsCards {
+  gap: 16px;
 }
 
 .materialsCard {
@@ -1033,9 +1046,9 @@ header a {
 
 .contactFormSecond textarea {
   width: 100%;
-  height: 160px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 5px;
+  height: 96px;
   padding: 16px;
 }
 
@@ -1099,4 +1112,343 @@ header a {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   gap: 8px;
   color: var(--black-50);
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    margin: auto 135px;
+  }
+
+  /*-------------------- Navbar Desktop --------------------*/
+
+  .hamburger {
+    display: none;
+  }
+
+
+  nav {
+    color: var(--white);
+  }
+
+  .logo {
+    width: 102px;
+    height: 48px;
+  }
+
+  .logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+
+  nav div {
+    justify-content: unset;
+  }
+
+  nav ul {
+    display: flex !important;
+    margin-left: auto;
+    margin-right: 40px;
+    gap: 35px;
+  }
+
+  .signupButton {
+    display: flex;
+    border: 1px solid var(--white-50);
+    width: 170px;
+    height: 48px;
+    border-radius: 5px;
+    color: var(--white);
+  }
+
+  /*-------------------- Header Desktop --------------------*/
+  .header {
+    padding: 111px 0 0 0;
+  }
+
+  .header>div {
+    display: flex;
+  }
+
+  .headerImage {
+    position: relative;
+    height: 510px;
+  }
+
+  .headerImage img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    /* left: -30px; */
+  }
+
+  .headerImage img:nth-child(1) {
+    display: block;
+  }
+
+  .headerImage img:nth-child(2) {
+    display: none;
+  }
+
+  .header h1 {
+    font-size: 72px;
+    line-height: 80px;
+  }
+
+  .header p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  /*-------------------- About Desktop --------------------*/
+
+  .about {
+    padding: 60px 0 80px 0;
+  }
+
+  .aboutText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aboutText p {
+    width: 570px;
+  }
+
+  .cards {
+    flex-direction: row;
+  }
+
+  .card {
+    width: 370px;
+    height: 416px;
+    justify-content: center;
+  }
+
+  /*-------------------- Aliquip Desktop --------------------*/
+  .aliquipText>p {
+    width: 570px;
+  }
+
+  .clipCard {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .clipCard h3 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .clipCard p {
+    width: 470px;
+  }
+
+  .clipCard:nth-child(2) img {
+    order: 2;
+  }
+
+  /*-------------------- Molestiae Desktop --------------------*/
+
+
+  .molestiaeText>p {
+    width: 570px;
+  }
+
+  .molestiaeCard>img:nth-child(2) {
+    display: none;
+  }
+
+  .molestiaeCard>img:last-child {
+    display: block;
+  }
+
+  .molestiaeCards {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .molestiaeCard:first-child {
+    width: 100%;
+  }
+
+  .molestiaeCard:nth-child(n+2) {
+    flex-basis: 49.3%;
+  }
+
+  .molestiaeBottom {
+    padding: 180px 0 0 0;
+    flex-direction: row;
+  }
+
+  .molestiaeBottom>img {}
+
+  .molestiaeBottomDescriptions {
+    display: flex;
+    gap: 30px;
+  }
+
+  /*-------------------- Scripserit Desktop --------------------*/
+  .scripserit {
+    display: flex;
+    flex-direction: row;
+  }
+
+  /*-------------------- Staff Desktop --------------------*/
+
+  .staff>div h4 {
+    width: 507px;
+  }
+
+  .staffCards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  /*-------------------- Materials Desktop --------------------*/
+  .materialsCards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    flex-direction: row;
+  }
+
+  .materials h4 {
+    width: 570px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .materialsCard {
+    flex-basis: 31.6%;
+    margin-bottom: 30px;
+  }
+
+  /*-------------------- Boss Desktop --------------------*/
+
+  .bossContainer {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .bossImage {
+    gap: 84px;
+  }
+
+  .bossContainer h2 {
+    width: 670px;
+  }
+
+  /*-------------------- Contact us Desktop --------------------*/
+  .contactusText p {
+    width: 570px;
+  }
+
+  .contactusBrands {
+    flex-direction: row;
+  }
+
+  /*-------------------- Blog Desktop --------------------*/
+  .blogCards {
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .blogCard {
+    flex: 1;
+  }
+
+  .blogCard>img:first-child {
+    display: none;
+  }
+
+  .blogCard>img:nth-child(2) {
+    display: block;
+  }
+
+  /*-------------------- Portfolio Desktop --------------------*/
+  .portfolioContainer {
+    flex-direction: row;
+  }
+
+  .portfolioImages {
+    flex-direction: row;
+  }
+
+  .portfolioText {
+    margin-right: 25px;
+  }
+
+  .portfolioText h2 {
+    width: 275px;
+  }
+
+  /*-------------------- Contact Desktop --------------------*/
+  .contactText {
+    display: flex;
+  }
+
+  .contactText>div {
+    width: 470px;
+  }
+
+  .contactText>img:last-child {
+    display: none;
+  }
+
+  .contactText>img:nth-child(2) {
+    margin-left: auto;
+    display: block;
+    width: 100%;
+  }
+
+  .contact {
+    background-image: url("../src/image/jpg/rectangleYellowShort.jpg");
+  }
+
+  .contactForm {
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .contactForm {
+    padding: 96px 0 0 0;
+    gap: 96px;
+  }
+
+  .contactFormFirst>img:nth-child(1) {
+    display: none;
+
+  }
+
+  .contactFormFirst>img:nth-child(2) {
+    display: block;
+  }
+
+  .contactFormSecond {
+    flex-basis: 50%;
+    padding: 0 0 0 0;
+  }
+
+  .contactFormSecond a {
+    margin-bottom: 0;
+  }
+
+  /*-------------------- Footer Desktop --------------------*/
+  .footerContainer {
+    flex-direction: row;
+    gap: 130px;
+  }
+
+  .footerBottom {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 27px 135px 29px 135px;
+  }
+
+
 }
