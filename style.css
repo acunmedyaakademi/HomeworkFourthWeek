@@ -1,0 +1,588 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/*
+    2. Remove default margin
+  */
+* {
+    margin: 0;
+}
+
+/*
+    3. Allow percentage-based heights in the application
+  */
+html,
+body {
+    height: 100%;
+}
+
+/*
+    Typographic tweaks!
+    4. Add accessible line-height
+    5. Improve text rendering
+  */
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+/*
+    6. Improve media defaults
+  */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+/*
+    7. Remove built-in form typography styles
+  */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/*
+    8. Avoid text overflows
+  */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/*
+    9. Create a root stacking context
+  */
+#root,
+#__next {
+    isolation: isolate;
+}
+
+/* CSS Reset Finish */
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 72px;
+    line-height: 80px;
+}
+
+h2 {
+    font-size: 56px;
+    line-height: 64px;
+}
+
+h3 {
+    font-size: 40px;
+    line-height: 48px;
+}
+
+h4 {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+h5 {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}
+
+Label {
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+
+    text-transform: uppercase;
+}
+
+.Text_Big {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.Text {
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.Text_Gray {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: rgba(0, 0, 0, 0.5);
+
+    mix-blend-mode: normal;
+}
+
+.Text_Small {
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+button {
+    height: 48px;
+    width: 170px;
+    border-radius: 5px;
+
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+hr {
+    background: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+    height: 2px;
+    /*height: 1px; normalde ama görünmüyor*/
+}
+
+.Light_Primary {
+    background: #434CCC;
+    color: #FFFFFF;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.Light_Secondary {
+    background: #FFFFFF;
+    color: #434CCC;
+}
+
+.Dark_Primary {
+    background: #F1B505;
+    color: #FFFFFF;
+    border: none;
+}
+
+/* .Dark_Secondary {} */
+
+.Grid {
+    width: 1175px;
+}
+
+
+/* Rectangle01 */
+
+.Rectangle01 {
+    height: 768px;
+    background: #434CCC;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+nav {
+    margin-top: 16px;
+    display: flex;
+    gap: 534px;
+    align-items: center;
+}
+
+.logo-mobil {
+    display: none;
+}
+
+.logo-web {
+    display: block;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+
+.links a {
+    color: #FFFFFF;
+}
+
+.About_Portfolio_Blog_Contact {
+    height: 24px;
+    width: 324px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_frame {
+    margin-top: 111px;
+    width: 515px;
+}
+
+.text_frame h1 {
+    margin-top: 24px;
+}
+
+.text_frame h2 {
+    display: none;
+}
+
+.text_frame p {
+    margin-top: 32px;
+    height: 72px;
+    width: 370px;
+}
+
+.text_frame button {
+    margin-top: 41px;
+}
+
+.clip-1-frame {
+    position: absolute;
+    height: 716px;
+    width: 1074px;
+    margin-left: 312px;
+    top: 48px;
+}
+
+.clip-1 {
+    height: 716px;
+    width: 1074px;
+    object-fit: contain;
+}
+
+
+/* Rectangle02 */
+
+.Rectangle02 {
+    height: 768px;
+    background: #FFDD78;
+    display: flex;
+    justify-content: center;
+}
+
+.Rectangle02 .Upper_Text {
+    margin-top: 60px;
+}
+
+.Upper_Text {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    text-align: center;
+    align-items: center;
+}
+
+.Upper_Text p {
+    width: 570px;
+}
+
+.Cards {
+    margin-top: 36px;
+    width: 1170px;
+    height: 416px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.card {
+    height: 416px;
+    width: 370px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.297017);
+    border-radius: 5px;
+}
+
+.card_CombinedShape {
+    height: 232px;
+    display: flex;
+}
+
+.card_CombinedShape img {
+    margin: auto;
+}
+
+.card-name {
+    margin-left: 30px;
+}
+
+.card-text {
+    margin: 15px 32px 21px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.description-content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.Learn-more {
+    color: #000000;
+    display: flex;
+    gap: 7px;
+    text-align: center;
+    align-items: center;
+}
+
+.arrow {
+    height: 11px;
+    width: 6px;
+}
+
+/* Rectangle03 */
+
+.Rectangle03 {
+    height: 1328px;
+    background: #434CCC0D;
+    mix-blend-mode: normal;
+    display: flex;
+    justify-content: center;
+}
+
+.Rectangle03 h5 {
+    margin-top: 63px;
+    text-align: center;
+}
+
+.Rectangle03 .Upper_Text {
+    margin-top: 21px;
+}
+
+.clip-list-is-empty {
+    position: absolute;
+    margin-top: 13px;
+}
+
+.Rectangle03_content1,
+.Rectangle03_content2 {
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+
+.Rectangle03_content1 {
+    margin-top: 110px;
+    margin-left: 600px;
+}
+
+.Rectangle03_content2 {
+    margin-top: 211px;
+    margin-left: 100px;
+}
+
+.clip-no-messages {
+    position: absolute;
+    margin-top: 92px;
+    margin-left: 516px;
+}
+
+/* Rectangle04 */
+
+.Rectangle04 {
+    height: 768px;
+    background: #434CCC;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.Rectangle04 h5 {
+    margin-top: 79px;
+    text-align: center;
+}
+
+.container {
+    margin-top: 52px;
+    position: absolute;
+    background-color: #F1B505;
+
+    height: 512px;
+    width: 1170px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+.Rectangle05 {
+    height: 1568px;
+    background: #434CCC0D;
+    mix-blend-mode: normal;
+    display: flex;
+    justify-content: center;
+}
+
+
+.Rectangle06 {
+    height: 656px;
+    background: #434CCC;
+    display: flex;
+    justify-content: center;
+}
+
+
+.Rectangle07 {
+    height: 1600px;
+    background: #434CCC0D;
+    mix-blend-mode: normal;
+    display: flex;
+    justify-content: center;
+}
+
+
+.Rectangle08 {
+    height: 496px;
+    background: #434CCC;
+    display: flex;
+    justify-content: center;
+}
+
+
+.Rectangle09 {
+    height: 1904px;
+    background: #434CCC0D;
+    mix-blend-mode: normal;
+    display: flex;
+    justify-content: center;
+}
+
+
+.Rectangle10 {
+    height: 656px;
+    background: #FFDD78;
+    display: flex;
+    justify-content: center;
+}
+
+
+.Rectangle11 {
+    height: 656px;
+    background: #434CCC;
+    display: flex;
+    justify-content: center;
+}
+
+
+.Rectangle12 {
+    height: 400px;
+    background: #434CCC0D;
+    mix-blend-mode: normal;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+@media only screen and (max-width:375px) {
+    .Grid {
+        width: 347px;
+    }
+
+    /* Rectangle01 */
+
+    nav {
+        gap: 264px;
+    }
+
+    .logo-web {
+        display: none;
+    }
+
+    .logo-mobil {
+        display: block;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .sidebar {
+        display: block;
+        justify-content: center;
+    }
+
+    .text_frame {
+        margin-top: 31px;
+        width: 258px;
+    }
+
+    .text_frame h1 {
+        display: none;
+    }
+
+    .text_frame h2 {
+        display: block;
+        margin-top: 5px;
+    }
+
+    .text_frame p {
+        margin-top: 19px;
+        width: 346px;
+    }
+
+    .text_frame button {
+        margin-top: 25px;
+    }
+
+    .clip-1 {
+        position: absolute;
+        height: 358px;
+        width: 537px;
+        margin-left: -14px;
+        top: 431px;
+    }
+
+    /* Rectangle02 */
+}
