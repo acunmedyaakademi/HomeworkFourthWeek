@@ -1254,30 +1254,26 @@
     width: 370px;
 }
 
-.img-12 {
+.img-12-f {
     margin-bottom: 40px;
 }
 
-.img-12,
-.img-13-f {
+.img-12-f {
     display: flex;
     gap: 30px;
 }
 
-.img-12 div,
-.img-13-f div {
+.img-12-f div {
     width: 270px;
 }
 
-.img-12 p,
-.img-13-f p {
+.img-12-f p {
     font-family: 'DM Sans', sans-serif;
     line-height: 24px;
     color: #00000080;
 }
 
-.img-12 span,
-.img-13-f span {
+.img-12-f span {
     font-family: 'DM Sans', sans-serif;
     font-weight: 700;
     font-size: 12px;
@@ -1285,8 +1281,7 @@
     color: #000;
 }
 
-.img-12 img,
-.img-13-f img {
+.img-12-f img {
     width: 70px;
     height: 48px;
 }
