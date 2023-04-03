@@ -1221,7 +1221,8 @@ header a {
   }
 
   .card {
-    width: 370px;
+    flex-basis: 25%;
+    min-width: 370px;
     height: 416px;
     justify-content: center;
   }
@@ -1243,7 +1244,7 @@ header a {
   }
 
   .clipCard p {
-    width: 470px;
+    width: auto;
   }
 
   .clipCard:nth-child(2) img {
@@ -1368,6 +1369,7 @@ header a {
 
   .blogCard>img:nth-child(2) {
     display: block;
+    width: clamp(500px, 90%, 750px);
   }
 
   /*-------------------- Portfolio Desktop --------------------*/
@@ -1377,6 +1379,7 @@ header a {
 
   .portfolioImages {
     flex-direction: row;
+    margin-left: auto;
   }
 
   .portfolioText {
