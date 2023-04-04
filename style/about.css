@@ -6,6 +6,7 @@
     --blue: #434CCC;
     --blue-30: #434CCC30;
     --yellow: #F1B505;
+    --border-color: rgba(0, 0, 0, 0.1);
 
     --max-width: 1110px;
     --mv-auto: 0 auto;
@@ -429,11 +430,180 @@ nav ul li:hover {
 .aboutHeader h1 {
     margin-bottom: 13px;
 }
+
 /*-------------------- Hero Header --------------------*/
 .hero {
+    padding: 47px 0 75px 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.heroLeft h5 {
+    margin-bottom: 13px;
+}
+
+.heroLeft h1 {
+    margin-bottom: 31px;
+}
+
+.heroLeft p {
+    margin-bottom: 42px;
+}
+
+/*-------------------- About --------------------*/
+
+.about {
+    padding: 42px 0 80px 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.aboutText h2 {
+    margin-bottom: 31px;
+}
+
+.aboutText p {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.cards {
+    gap: 16px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: -webkit-fill-available;
+    background-color: var(--white);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.297017);
+    border-radius: 5px;
+    padding-top: 64px;
+}
+
+.card>img {
+    margin-bottom: 54px;
+    height: 115px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card h3 {
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: var(--black-50);
+    margin-bottom: 25px;
+}
+
+.cardContent {
+    margin-left: 30px;
+    width: inherit;
+}
+
+.cardContent a {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    padding-top: 18px;
+    gap: 7px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 21px;
+}
+
+/*-------------------- Agreement --------------------*/
+
+.agreement {
+    padding: 0 0 80px 0;
+}
+
+.agreementRight {
+    margin-bottom: 49px;
+}
+
+.agreementRight h5 {
+    margin-bottom: 19px;
+}
+
+.agreementRight h2 {
+    margin-bottom: 31px;
+}
+
+.agreementRight>p {
+    margin-bottom: 44px;
+}
+
+.agreementInfo {
+    margin-bottom: 49px;
+}
+
+.agreementInfo>div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+}
+
+.agreementInfo p {
+    color: var(--black-50);
+}
+
+.agreementInfo img {
+    margin-right: 10px;
+    width: 45px;
+    height: 45px;
+}
+
+.agreementButtons {
+    gap: 6px;
+}
+
+.agreementButtons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
     background-color: var(--blue);
     color: var(--white);
-    padding: 28px 0 39px 0;
+    width: 170px;
+    height: 48px;
+    margin-bottom: -3px;
+}
+
+.agreementButtons a:nth-child(2) {
+    color: var(--blue);
+    background-color: transparent;
+    border: 1px solid var(--blue-30);
+
+}
+
+/*-------------------- Statistics --------------------*/
+.statistics {
+    padding: 74px 0 73px 0;
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.statisticsText {
+    margin-bottom: 31px;
+}
+
+.statisticsText h1 {
+    margin-bottom: 31px;
+}
+
+.statisticsText p {
+    margin-bottom: 31px;
+}
+
+.stats {
+    gap: 40px;
+}
+
+.stats p {
+    color: var(--white-50);
 }
 
 
@@ -517,5 +687,83 @@ nav ul li:hover {
 
     .aboutHeader h1 {
         margin-bottom: 10px;
+    }
+
+    /*-------------------- Hero Desktop --------------------*/
+    .hero {
+        padding: 112px 0 143px 0;
+    }
+
+    .heroContainer {
+        flex-direction: row;
+    }
+
+    .heroRight img:nth-child(1) {
+        display: none;
+    }
+
+    .heroRight img:nth-child(2) {
+        display: block;
+    }
+
+    .heroLeft>div {
+        flex-direction: row;
+
+    }
+
+    /*-------------------- About Desktop --------------------*/
+    .about {
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    .cards {
+        flex-direction: row;
+    }
+
+    /*-------------------- Agreement Desktop --------------------*/
+
+    .agreement {
+        padding: 126px 0 158px 0;
+    }
+
+    .agreementContainer {
+        flex-direction: row;
+    }
+
+    .agreementContainer>div {
+        flex-basis: 50%;
+    }
+
+    .agreementLeft img:nth-child(1) {
+        display: none;
+    }
+
+    .agreementLeft img:nth-child(2) {
+        display: block;
+        object-fit: none;
+        height: 515px;
+    }
+
+    .agreementRight {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .agreementButtons {
+        justify-content: start;
+    }
+
+    /*-------------------- Statistics Desktop --------------------*/
+
+    .stats {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .statisticsText p {
+        width: clamp(0px, 100%, 800px);
+
     }
 }
