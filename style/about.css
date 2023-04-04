@@ -569,7 +569,6 @@ nav ul li:hover {
     color: var(--white);
     width: 170px;
     height: 48px;
-    margin-bottom: -3px;
 }
 
 .agreementButtons a:nth-child(2) {
@@ -605,6 +604,282 @@ nav ul li:hover {
 .stats p {
     color: var(--white-50);
 }
+
+/*-------------------- Materials --------------------*/
+.materials {
+    padding: 63px 0 50px 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.materialsText {
+    margin-bottom: 72px;
+}
+
+.materialsText p {
+    margin-bottom: 33px;
+}
+
+.materialsText h2 {
+    margin-bottom: 19px;
+}
+
+.materialsText h1 {
+    margin-bottom: 31px;
+}
+
+.materialsText a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: transparent;
+    color: var(--blue);
+    border: 1px solid var(--blue-30);
+    width: 170px;
+    height: 48px;
+}
+
+.materialsCards {
+    gap: 50px;
+}
+
+.materialsCard {
+    display: flex;
+    gap: 35px;
+}
+
+.materialsCard h3 {
+    margin-bottom: 7px;
+}
+
+.materialsCard p {
+    color: var(--black-50);
+}
+
+/*-------------------- Photo --------------------*/
+
+.photo {
+    padding: 15px 0 80px 0;
+    border: 1px solid var(--border-color);
+}
+
+.photoLeft {
+    margin-bottom: 58px;
+}
+
+.photoLeft img {
+    border-radius: 5px;
+}
+
+.photoRight h2 {
+    margin-bottom: 19px;
+}
+
+.photoRight h1 {
+    margin-bottom: 31px;
+}
+
+.photoRight p {
+    margin-bottom: 32px;
+}
+
+.photoRight a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: var(--blue);
+    color: var(--white);
+    width: 170px;
+    height: 48px;
+}
+
+/*-------------------- Graphic --------------------*/
+.graphic {
+    padding: 143px 0 144px 0;
+}
+
+.graphicLeft h2 {
+    margin-bottom: 19px;
+}
+
+.graphicLeft h1 {
+    margin-bottom: 47px;
+}
+
+.graphicLeftDetails {
+    gap: 31px;
+}
+
+.graphicLeftDetails>div {
+    position: relative;
+}
+
+.graphicLeftDetails hr {
+    width: 100%;
+    height: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--border-color);
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: #434CCC 0px 0px 10px 0px inset;
+}
+
+progress {
+    position: relative;
+    width: 100%;
+    height: 10px;
+}
+
+progress::before,
+progress::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+}
+
+progress::before {
+    border-radius: 5px;
+    width: 100%;
+    background: #E9E9E9;
+}
+
+
+
+.progress1 progress::after {
+    background-color: var(--yellow);
+    width: 85%;
+}
+
+.progress2 progress::after {
+    background-color: #E94A47;
+    width: 73%;
+}
+
+.progress3 progress::after {
+    background-color: var(--blue);
+    width: 42%;
+}
+
+progress::after {
+    border-radius: 5px;
+}
+
+.progressLabel {
+    display: block;
+}
+
+.graphicLeftDetails label::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: 700;
+}
+
+.progress1 label::after {
+    content: "85%";
+}
+
+.progress2 label::after {
+    content: "73%";
+}
+
+.progress3 label::after {
+    content: "42%";
+}
+
+/*-------------------- News --------------------*/
+
+.news {
+    padding: 63px 0 80px 0;
+    background-color: var(--yellow);
+}
+
+.newsLeft h2 {
+    margin-bottom: 19px;
+}
+
+.newsLeft h1 {
+    margin-bottom: 38px;
+}
+
+.newsRight input {
+    width: 100%;
+    height: 48px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 0 16px;
+    margin-bottom: 19px;
+
+}
+
+.newsRight a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: var(--blue);
+    color: var(--white);
+    width: 170px;
+    height: 48px;
+}
+
+/*-------------------- Footer --------------------*/
+
+.footer {
+    padding: 72px 0 0px 0;
+}
+
+.footerLeft {
+    margin-bottom: 79px;
+}
+
+.footerLeft>a img {
+    margin-bottom: 23px;
+}
+
+.footerLeft>p {
+    margin-bottom: 23px;
+    color: var(--black-50);
+}
+
+.footerMid {
+    gap: 120px;
+    margin-bottom: 73px;
+}
+
+.footerMid h3 {
+    margin-bottom: 24px;
+}
+
+.footerMid li {
+    margin-bottom: 8px;
+}
+
+.footerRight {
+    gap: 40px;
+}
+
+.footerRight div {
+    gap: 20px;
+}
+
+.footerRight img {
+    border-radius: 5px;
+    width: 70px;
+    height: 48px;
+}
+
+.footerBottom {
+    padding: 27px 15px 0 15px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    gap: 8px;
+    color: var(--black-50);
+}
+
 
 
 @media screen and (min-width: 1440px) {
@@ -674,8 +949,11 @@ nav ul li:hover {
         color: var(--white);
     }
 
-    nav input,
-    label {
+    nav input {
+        display: none;
+    }
+
+    nav label {
         display: none;
     }
 
@@ -765,5 +1043,103 @@ nav ul li:hover {
     .statisticsText p {
         width: clamp(0px, 100%, 800px);
 
+    }
+
+    /*-------------------- Materials Desktop --------------------*/
+    .materialsContainer {
+        flex-direction: row;
+        gap: 80px;
+    }
+
+    .materialsText {
+        flex-basis: 40%;
+    }
+
+    .materialsCards {
+        flex-direction: row;
+        flex-basis: 92%;
+        flex-wrap: wrap;
+    }
+
+    .materialsCard {
+        flex-basis: 46.7%;
+        width: clamp(0px, 100%, 350px);
+    }
+
+    .materialsCard img {
+        width: 50px;
+        height: 50px;
+        margin-right: 30px;
+    }
+
+    /*-------------------- Photo Desktop --------------------*/
+    .photo {
+        padding: 144px 0 114px 0;
+    }
+
+    .photoContainer {
+        flex-direction: row;
+        gap: 130px;
+    }
+
+    .photoLeft {
+        flex-basis: 50%;
+    }
+
+    .photoLeft img:nth-child(1) {
+        display: none;
+    }
+
+    .photoLeft img:nth-child(2) {
+        display: block;
+    }
+
+    .photoRight {
+        flex-basis: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /*-------------------- Graphic --------------------*/
+    .graphicContainer {
+        flex-direction: row;
+        gap: 135px;
+    }
+
+    .graphicLeft {
+        flex-basis: 40%;
+    }
+
+    .graphicRight {
+        flex-basis: 60%;
+    }
+
+    /*-------------------- News Desktop --------------------*/
+    .newsContainer {
+        flex-direction: row;
+        gap: 84px;
+        align-items: center;
+    }
+
+    .newsRight {
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    /*-------------------- Footer Desktop --------------------*/
+    .footerContainer {
+        flex-direction: row;
+        gap: 130px;
+    }
+
+    .footerBottom {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 27px 135px 29px 135px;
+    }
+
+    .footerBottom>div {
+        flex-basis: 50%;
     }
 }
