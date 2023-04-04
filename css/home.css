@@ -376,9 +376,9 @@
     display: inline-block;
     margin-top: 36px;
 }
+
 /* Molestiae End*/
 /* containerpictures */
-
 
 .containerpictures {
     background-color: #f5f6fc;
@@ -952,6 +952,11 @@
     display: none;
 }
 
+
+.novummobile2 {
+    display: none;
+}
+
 .novumcard p {
     margin-top: 15px;
     font-family: 'DM Sans';
@@ -1130,6 +1135,9 @@
     position: relative;
 }
 
+.mapiconmobile1 {
+    display: none;
+}
 
 .centered {
     position: absolute;

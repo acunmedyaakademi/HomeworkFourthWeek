@@ -26,6 +26,15 @@
 
     .expetendaleft p {
         width: 100%;
+        margin-top: 19px;
+    }
+
+    .expetendabutton {
+        margin-top: 25px;
+    }
+
+    .expetendaleft h1 {
+        margin-top: 5px;
     }
 
     .vivendo {
@@ -35,12 +44,28 @@
         padding-left: 14px;
     }
 
+    .vivendoheader {
+        padding-top: 42px;
+    }
+
     .vivendoheader p {
         width: 100%;
+        margin-top: 31px;
+        margin-bottom: 50px;
+    }
+
+    .vivendoheader h2 {
+        font-size: 40px;
+        line-height: 48px;
     }
 
     .vivendocard {
         flex-direction: column;
+        gap: 16px;
+    }
+
+    .card {
+        width: 346px;
     }
 
     .aliquip {
@@ -52,6 +77,20 @@
 
     .aliquipheader p {
         width: 100%;
+        margin-top: 31px;
+    }
+
+    .aliquipheader h2 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+    
+    .aliquipnemoreright p {
+        margin-top: 23px;
+    }
+
+    .doloremleft p {
+        margin-top: 23px;
     }
 
     .aliquipnemore {
@@ -66,6 +105,15 @@
         width: 100%;
     }
 
+    .aliquipnemorerightlernmore {
+        margin-top: 0;
+    }
+
+    .aliquipnemorerightlernmore2 {
+        margin-bottom: 52px;
+    }
+
+
     .molestiae {
         width: 375px;
         margin: 0 auto; 
@@ -73,19 +121,29 @@
         padding-left: 14px;
     }
 
+
+
+
     .molestiaeheader {
         padding-top: 63px;
     }
 
+    .molestiaeheader h2 {
+        font-size: 40px;
+        line-height: 48px;
+        margin-top: 19px;
+    }
+
     .molestiaeheader p {
         width: 100%;
-        
+        margin-top: 32px;
     }
 
     .textonpicture {
         width: 100%;
         background-position: 69% center;
         border-radius: 5px;
+        margin-top: 33px;
     }
 
     .textpadding {
@@ -93,10 +151,15 @@
         padding-top: 31px;
     }
 
+    .textpadding a {
+        margin-top: 22px;
+    }
+
     .textpadding h2 {
         width: 100%;
         font-size: 40px;
         line-height: 48px;
+        margin-top: 3px;
     }
 
     .pictures {
@@ -108,6 +171,8 @@
 
     .picturesheader {
         flex-direction: column;
+        margin-top: 112px;
+        gap: 16px;
     }
 
     .erroribus {
@@ -132,6 +197,7 @@
     
     .nemore {
         flex-direction: column;
+        padding-bottom: 62px;
     }
 
     .nemoreright h2 {
@@ -179,6 +245,7 @@
 
     .scriptoremcards {
         flex-direction: column;
+        gap: 16px;
     }
 
     .adfall h2 {
@@ -187,6 +254,10 @@
 
     .adfall p {
         width: 100%;
+    }
+
+    .adfallcard {
+        width: 346px;
     }
 
     .dicta {
@@ -251,10 +322,19 @@
 
     .novumcards {
         flex-direction: column;
+        gap: 16px;
     }
 
     .novumcard > img {
-        height: 230px;
+        height: 100%;
+    }
+
+    .novummobile1 {
+        display: none;
+    }
+    
+    .novummobile2 {
+        display: block;
     }
 
     .novummobilea {
@@ -266,11 +346,14 @@
         border: 1px solid rgba(67, 76, 204, 0.32);
         border-radius: 5px;
         padding: 13px 54px 11px 54px;
-        margin: 0 auto;
+        margin: 32px auto 0;
     }
 
     .viderer {
         flex-direction: column;
+        margin-top: 0;
+        gap: 20px;
+        padding-bottom: 84px;
     }
 
     .viderer > img {
@@ -292,6 +375,10 @@
         padding-left: 14px;
         flex-direction: column;
     }
+
+    .maiestatisleft {
+        margin-top: 83px;
+    }
     .maiestatisleft h2 {
         font-weight: 400;
         font-size: 40px;
@@ -300,6 +387,7 @@
 
     .maiestatisleftinput {
         flex-direction: column;
+        gap: 16px;
     }
 
     .maiestatisleftinput a {
@@ -319,6 +407,14 @@
         gap: 0;
     }
 
+    .mapiconmobile1 {
+        display: block;
+    }
+
+    .mapiconmobile2 {
+        display: none;
+    }
+
     .ancillaeright {
         margin-top: 47px;
     }
@@ -333,6 +429,10 @@
         padding-right: 14px;
         padding-left: 14px;
         flex-direction: column;
+    }
+
+    .endlogo {
+        width: 100%;
     }
 
     .endflex1 {
