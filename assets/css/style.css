@@ -12,18 +12,21 @@
     height: 64px;
     display: flex;
     align-items: center;
-    margin: 0 15px 0 14px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .first-bar {
     display: flex;
     align-items: center;
+    text-align: center;
     height: 32px;
-    width: 346px;
+    width: 90%;
     justify-content: space-between;
+    margin: 0 auto;
 }
 
-nav div div h4 {
+.logo {
     color: white;
     font-weight: 400;
     width: 62px;
@@ -33,13 +36,13 @@ nav div div h4 {
     line-height: 32px;
 }
 
-nav div div img {
+.hamburger {
     width: 20px;
     height: 14px;
 }
 
 .blue-page-text {
-    margin: 28px 20px 0px 23px;
+    margin: 0 auto;
     width: 332px;
     height: 109px;
     text-align: center;
@@ -63,6 +66,12 @@ nav div div img {
     font-size: 20px;
     height: 32px;
     line-height: 32px;
+}
+
+.second-nav-bar {
+    display: flex;
+    display: row;
+    gap: 32px;
 }
 
 /* For Desktop */
