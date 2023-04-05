@@ -1160,14 +1160,31 @@
     margin-bottom: 32px;
 }
 
-.message-13 input:last-of-type {
+textarea {
+    border: 1px solid #DADADA;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
     height: 96px;
+    outline: none;
+    padding: 13px 0 0 16px;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 24px;
     margin-bottom: 48px;
+    resize: none;
+}
+
+textarea::placeholder {
+    font-family: 'DM Sans', sans-serif;
+    line-height: 24px;
+    color: #00000080;
+
 }
 
 .message-13 input::placeholder {
     color: #00000080;
-  
+    font-family: 'DM Sans', sans-serif;
+    line-height: 24px;
 }
 
 .mobile-map-13 {
