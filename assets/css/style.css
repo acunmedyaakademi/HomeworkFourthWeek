@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: #434CCC;
+    height: 240px;
+}
+
+.top-bar {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    margin: 0 15px 0 14px;
+}
+
+.first-bar {
+    display: flex;
+    align-items: center;
+    height: 32px;
+    width: 346px;
+    justify-content: space-between;
+}
+
+nav div div h4 {
+    color: white;
+    font-weight: 400;
+    width: 62px;
+    height: 32px;
+    font-size:24px; 
+    font-family: 'DM Serif Display';
+    line-height: 32px;
+}
+
+nav div div img {
+    width: 20px;
+    height: 14px;
+}
+
+.blue-page-text {
+    margin: 28px 20px 0px 23px;
+    width: 332px;
+    height: 109px;
+    text-align: center;
+}
+
+.nav-heading {
+    margin-bottom: 13px;
+    font-size: 56px;
+    height: 64px;
+    font-weight: 400;
+    color: white;
+    font-family: 'DM Serif Display';
+    text-align: center;
+    line-height: 64px;
+}
+
+.nav-text {
+    color: white;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 20px;
+    height: 32px;
+    line-height: 32px;
+}
+
+/* For Desktop */
+
+@media only screen and (min-width: 1400px) {
+    .nav {
+        height: 304px;
+    }
+    .top-bar {
+        height: 80px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin: auto 0;
+    }  
+    .first-bar {
+        display: flex;
+        height: 48px;
+        width: 1170px;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+    }
+    
+    nav div div h4 {
+        color: white;
+        font-size: 40px;
+        font-family: 'DM Serif Display';
+        text-align: center;
+        width: 102px;
+        height: 48px;
+        line-height: 48px;
+    }
+    
+    nav div div img {
+        width: 170px;
+        height: 22px;
+    }
+    
+    .blue-page-text {
+        height: 122px;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 47px;
+        margin-bottom: 55px;
+    }
+    
+    .nav-heading {
+        margin-bottom: 13px;
+        font-size: 72px;
+        height: 80px;
+        line-height: 80px;
+    }
+
+}
