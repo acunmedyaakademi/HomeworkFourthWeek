@@ -1,0 +1,1759 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+a {
+  color: black;
+}
+.container {
+  width: 100%;
+  height: 768px;
+  background-color: #434ccc;
+  align-items: center;
+}
+.container-2 {
+  width: 100%;
+  height: 80px;
+  background-color: #434ccc;
+  align-items: center;
+}
+.hero {
+  width: 1150px;
+  height: 70px;
+  display: flex;
+  margin: 0 auto;
+  background-color: #434ccc;
+  justify-content: space-between;
+}
+.hero h1 {
+  font-family: "DM Serif Display", serif;
+  color: #ffff;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 2;
+}
+
+.navigation ul {
+  display: flex;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  padding: 0 35px;
+  line-height: 4;
+  gap: 40px;
+}
+.navigation ul li {
+  color: #ffff;
+}
+.navigation button {
+  width: 170px;
+  height: 48px;
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  color: #ffff;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+}
+#menu-icon {
+  font-size: 35px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 1;
+  display: none;
+}
+.entry {
+  width: 1150px;
+  margin: 0 auto;
+  color: #ffff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.write {
+  margin-top: 111px;
+  z-index: 2;
+}
+.entry h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+.entry h1 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 72px;
+  margin-bottom: 32px;
+}
+.entry h4 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.entry img {
+  position: absolute;
+  z-index: 0;
+  margin-left: 300px;
+}
+.yellow-area {
+  background-color: #ffdd78;
+  height: 768px;
+  width: 100%;
+}
+.title {
+  text-align: center;
+  width: 1150px;
+  margin: 0 auto;
+}
+.title h2 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 3;
+}
+.title h5 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+}
+.cards {
+  display: flex;
+  margin-top: 36px;
+}
+.card {
+  width: 370px;
+  height: 416px;
+  background-color: #ffff;
+  margin-right: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.297017);
+}
+.card img {
+  margin: 0 auto;
+  height: 100px;
+  margin-top: 64px;
+  margin-bottom: 54px;
+}
+.info {
+  text-align: start;
+  margin-left: 32px;
+}
+.info h4 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+.info p {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 25px;
+}
+.info hr {
+  color: #eeee;
+  margin-bottom: 25px;
+}
+.info button {
+  font-family: "DM Sans";
+  background: none;
+  border: none;
+  font-size: 16px;
+  line-height: 2;
+  font-weight: 700;
+}
+.title-2 {
+  text-align: center;
+  margin-top: 63px;
+}
+.title-2 h5 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.title-2 h2 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 56px;
+  margin-bottom: 29px;
+}
+.title-2 p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 20px;
+}
+.demo {
+  display: flex;
+  width: 1170px;
+  margin: 0 auto;
+}
+.demos {
+  width: 1150px;
+  margin: 0 auto;
+}
+
+.demo-write {
+  text-align: start;
+  margin-top: 60px;
+}
+.demo-write h5 {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+}
+.demo-write h3 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 40px;
+  width: 435px;
+}
+.demo-write p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.demo-write button {
+  background: none;
+  border: none;
+  font-family: "DM Sans";
+  margin-top: 37px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #0000;
+}
+.purple-area {
+  background-color: #434ccc;
+  width: 100%;
+  height: 768px;
+}
+.title-3 {
+  text-align: center;
+  color: #ffff;
+  background-color: #434ccc;
+  padding-top: 79px;
+}
+.title-3 h5 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.title-3 h2 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 56px;
+  margin-bottom: 29px;
+}
+.title-3 p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+.cards-2 {
+  margin: 0 auto;
+}
+.card-2 {
+  width: 1124px;
+  margin: 0 auto;
+  background-color: #f1b505;
+  display: flex;
+  border-radius: 5px;
+  height: 499px;
+  background-image: url(./img/kadın.png);
+  background-position: 90%;
+}
+
+.card-2 p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffff;
+}
+.card-2 h2 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 56px;
+  color: #ffff;
+  width: 500px;
+}
+.card-2 button {
+  width: 170px;
+  height: 48px;
+  margin-top: 36px;
+  background-color: #f1b505;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+}
+.card-2 button a {
+  font-family: "DM Sans";
+  font-weight: 700;
+  color: #ffff;
+  background: none;
+}
+.write-2 {
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 111px;
+  width: 360px;
+  background-image: url(./img/kadın.png);
+}
+.card-3 {
+  width: 1121px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.caesar {
+  width: 528px;
+  height: 480px;
+  margin-top: 32px;
+  border-radius: 5px;
+  background-image: url(./img/caesar.png);
+  background-repeat: no-repeat;
+}
+.card-3 p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffff;
+}
+.card-3 h4 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffff;
+}
+.card-3 button {
+  margin-top: 24px;
+  background: none;
+  padding: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+}
+.writes {
+  position: relative;
+  top: 79px;
+  left: 100px;
+}
+.dog {
+  width: 528px;
+  height: 480px;
+  margin-top: 32px;
+  border-radius: 5px;
+  background-image: url(./img/dog.png);
+  background-repeat: no-repeat;
+}
+.all-works {
+  text-align: center;
+  margin-top: 25px;
+}
+.all-works button {
+  text-align: center;
+  width: 170px;
+  height: 48px;
+  margin: 0 auto;
+  background: none;
+  border: 1px solid #434ccc;
+  border-radius: 5px;
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 16px;
+}
+.all-works button a {
+  color: #434ccc;
+}
+.detail {
+  background-image: url(./img/door.png);
+  background-repeat: no-repeat;
+  height: 800px;
+  width: 1529px;
+  margin: 0 auto;
+}
+.detail h2 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 56px;
+  margin-left: 735px;
+  position: relative;
+  top: 164px;
+}
+.detail p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: 735px;
+  position: relative;
+  top: 190px;
+}
+.down {
+  display: flex;
+  position: relative;
+  left: 735px;
+  top: 250px;
+  gap: 30px;
+  width: 560px;
+}
+.down h5 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 24px;
+  margin-top: 19px;
+}
+.down h4 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 24px;
+  margin-top: 32px;
+}
+.down h6 {
+  margin-top: 7px;
+  font-family: "DM Sans";
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+  font-size: 16px;
+}
+.office {
+  display: flex;
+  height: 728px;
+  width: auto;
+  justify-content: space-between;
+  background-color: #434ccc;
+  margin-bottom: 63px;
+}
+.promotion {
+  text-align: start;
+}
+.promotion h5 {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffff;
+  margin-top: 127px;
+  margin-left: 135px;
+}
+.promotion h2 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 56px;
+  color: #ffff;
+  margin-left: 135px;
+}
+.promotion p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffff;
+  margin-left: 135px;
+}
+.promotion button {
+  background: #f1b505;
+  border: none;
+  border-radius: 5px;
+  width: 170px;
+  height: 48px;
+  margin-left: 135px;
+  margin-top: 45px;
+}
+.promotion button a {
+  color: #ffff;
+  font-family: "DM Sans";
+
+  font-weight: 700;
+  font-size: 16px;
+}
+.office-img img {
+  width: 800px;
+  height: auto;
+}
+.user-area {
+  width: 100%;
+}
+.write-area {
+  text-align: center;
+}
+.write-area h5 {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 21px;
+}
+.write-area h2 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 56px;
+  margin-bottom: 29px;
+}
+.write-area p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 36px;
+}
+.user {
+  width: 1175px;
+  margin: 0 auto;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 95px;
+}
+.user-1 {
+  width: 370px;
+  height: 480px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.297017);
+  border-radius: 5px;
+}
+.user-info {
+  margin-left: 32px;
+}
+.user-info h4 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+.user-info hr {
+  background: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.1;
+  margin-bottom: 18px;
+}
+.user-info p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.user-image img {
+  border-radius: 50%;
+  margin: 0 auto;
+  padding: 31px;
+}
+.user-detail {
+  display: flex;
+  justify-content: space-between;
+}
+.social img {
+  margin-right: 13px;
+}
+.options {
+  width: 100%;
+}
+.message-card {
+  width: 1175px;
+  margin: 0 auto;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 95px;
+  flex-wrap: wrap;
+}
+.method {
+  display: flex;
+  width: 370px;
+  height: 144px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.297017);
+  border-radius: 5px;
+}
+.method-img img {
+  padding: 32px;
+}
+.method-info {
+  margin-top: 24px;
+}
+.method-info h4 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 24px;
+}
+.method-info p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+}
+.feedback {
+  width: 100%;
+  height: 496px;
+  background-color: #434ccc;
+  justify-content: space-around;
+  display: flex;
+  margin-bottom: 79px;
+}
+
+.user-photo img {
+  border-radius: 50%;
+  margin-top: 120px;
+}
+.arrows {
+  width: 48px;
+  height: 48px;
+  margin-top: 192px;
+}
+.arrows img {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  padding: 13px;
+}
+.f-back {
+  margin-top: 127px;
+}
+.f-back h5 {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffff;
+  margin-bottom: 33px;
+}
+.f-back h4 {
+  font-family: "DM Serif Display";
+  color: #ffff;
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 22px;
+}
+.f-back h6 {
+  font-family: "DM Sans";
+  color: #ffff;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+.f-back p {
+  color: rgba(255, 255, 255, 0.5);
+}
+.sponsor {
+  width: 100%;
+}
+.sponsor hr {
+  background: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.1;
+  margin-bottom: 62px;
+}
+.logo img {
+  margin-right: 33px;
+  margin-top: 55px;
+}
+.logo {
+  width: 1226px;
+  margin: 0 auto;
+  display: block;
+}
+.contact {
+  text-align: center;
+  margin-top: 72px;
+  margin-bottom: 96px;
+}
+.contact a {
+  margin: 0 auto;
+  color: #434ccc;
+}
+.contact button {
+  margin: 0 auto;
+  width: 170px;
+  height: 48px;
+  background: none;
+  border: 1px solid #434ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: "DM Sans";
+  font-weight: 700;
+}
+.product {
+  width: 100%;
+  height: 720px;
+}
+.baslik {
+  width: 1175px;
+  margin: 0 auto;
+  text-align: start;
+}
+.baslik h5 {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+}
+.alt-baslik {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 21px;
+  margin-bottom: 36px;
+}
+.alt-baslik h2 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 56px;
+}
+.alt-baslik a {
+  color: #434ccc;
+}
+.alt-baslik button {
+  width: 170px;
+  height: 48px;
+  background: none;
+  border: 1px solid #434ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: "DM Sans";
+  font-weight: 700;
+}
+.product-card {
+  width: 1175px;
+  margin: 0 auto;
+  display: flex;
+  gap: 30px;
+}
+.product-image img {
+  border-radius: 40px;
+  padding: 33px;
+}
+.product-1 {
+  width: 570px;
+  height: 500px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.297017);
+  border-radius: 5px;
+}
+.product-info {
+  margin-left: 32px;
+}
+.product-info p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 17px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.product-info h4 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+.product-info hr {
+  background: #000000;
+  opacity: 0.1;
+  margin-bottom: 12px;
+}
+.product-info button {
+  background: none;
+  border: none;
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 16px;
+  color: #0000;
+}
+.product hr {
+  background: #000000;
+  opacity: 0.1;
+  margin-bottom: 18px;
+}
+.social-media {
+  width: 100%;
+  height: 400px;
+}
+.area {
+  width: 1175px;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 126px;
+  justify-content: space-around;
+}
+.write-4 h5 {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  text-align: start;
+  margin-bottom: 33px;
+}
+.write-4 h4 {
+  font-family: "DM Serif Display";
+  text-align: start;
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+.insta {
+  display: flex;
+  gap: 15px;
+}
+.insta button {
+  background: none;
+  border: 1px solid #434ccc;
+  border-radius: 5px;
+  color: #434ccc;
+  width: 48px;
+  height: 48px;
+}
+.insta p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+}
+.photos {
+  justify-content: space-around;
+}
+.photos img {
+  border-radius: 5px;
+  margin-right: 15px;
+}
+.subscribe {
+  width: 100%;
+  height: 656px;
+  background-color: #ffdd78;
+}
+.subscribe2 {
+  height: 352px;
+  width: 100%;
+  background-color: #ffdd78;
+}
+.content {
+  width: 1175px;
+  height: 656px;
+  margin: 0 auto;
+  margin-top: 127px;
+  display: flex;
+  background-image: url(./img/bike.png);
+  background-repeat: no-repeat;
+  background-position: 160% 100%;
+}
+.content2 {
+  width: 1175px;
+  height: 656px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.write-5 {
+  margin-top: 127px;
+}
+.write-5 h5 {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 21px;
+}
+.write-5 h2 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 56px;
+  margin-bottom: 29px;
+}
+.write-5 p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 32px;
+}
+
+.placeholder input {
+  width: 270px;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  margin-right: 30px;
+}
+.placeholder button {
+  width: 170px;
+  height: 48px;
+  background: #434ccc;
+  border-radius: 5px;
+}
+.placeholder button a {
+  color: #ffff;
+  font-family: "DM Sans";
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+}
+.placeholder2 input {
+  margin-top: 150px;
+  width: 270px;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  margin-right: 30px;
+}
+.placeholder2 button {
+  width: 170px;
+  height: 48px;
+  border: none;
+  background: #434ccc;
+  border-radius: 5px;
+}
+.placeholder2 button a {
+  color: #ffff;
+  font-family: "DM Sans";
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+}
+.map {
+  width: 100%;
+  height: 656px;
+  background-color: #434ccc;
+}
+.map-detail {
+  width: 1175px;
+  height: 656px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.map-area {
+  margin-top: 95px;
+}
+.form {
+  flex-direction: column;
+  display: flex;
+  margin-top: 95px;
+}
+.form input {
+  background: #ffffff;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+}
+.form h5 {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffff;
+}
+.form h2 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 56px;
+  color: #ffff;
+}
+.input {
+  width: 470px;
+  height: 48px;
+  margin-bottom: 32px;
+  font-family: "DM Sans";
+
+  font-weight: 400;
+  font-size: 16px;
+}
+.input-2 {
+  text-align: start;
+  height: 96px;
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+}
+.form button {
+  width: 170px;
+  height: 48px;
+  background-color: #f1b505;
+  border: none;
+  border-radius: 5px;
+  margin-top: 48px;
+}
+.form button a {
+  color: #ffff;
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 16px;
+}
+.brand h4 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 23px;
+}
+.brand p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 18px;
+}
+.footer {
+  width: 100%;
+  height: 300px;
+}
+.foot {
+  width: 1175px;
+  margin: 0 auto;
+  margin-top: 72px;
+  display: flex;
+  justify-content: space-between;
+}
+.social-url img {
+  margin-right: 8px;
+}
+.url {
+  display: flex;
+}
+.table {
+  margin-right: 142px;
+}
+.table ul {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 3;
+}
+.table ul li {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 2;
+}
+.new {
+  display: flex;
+  margin-top: 25px;
+}
+.new-photo img {
+  border-radius: 5px;
+  margin-right: 25px;
+}
+.new-contents p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.new-contents h6 {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 12px;
+}
+.foot-2 hr {
+  background: #000000;
+  opacity: 0.1;
+  margin-top: 55px;
+}
+.foot-center {
+  display: flex;
+  width: 1175px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.foot-center p {
+  margin-top: 27px;
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+hr {
+  background: #000000;
+  opacity: 0.1;
+}
+@media screen and (max-width: 450px) {
+  .container {
+    width: 100%;
+    height: 940px;
+  }
+  .hero {
+    width: 90%;
+  }
+  #menu-icon {
+    margin-top: 15px;
+    display: block;
+  }
+  .navigation ul {
+    display: none;
+  }
+  .write {
+    width: 343px;
+  }
+  .entry {
+    width: 100%;
+    display: block;
+  }
+  .entry img {
+    margin-left: -52px;
+    width: 429px;
+  }
+  .yellow-area {
+    height: 1632px;
+    width: 100%;
+  }
+  .title {
+    width: 375px;
+  }
+  .title h2 {
+    font-size: 40px;
+  }
+  .cards {
+    display: block;
+  }
+  .card {
+    width: 346px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+  }
+  .title-2 {
+    width: 100%;
+  }
+  .demos {
+    width: 375px;
+  }
+  .demo img {
+    width: 375px;
+  }
+  .demo {
+    display: block;
+  }
+  .demo-write {
+    margin-right: 14px;
+  }
+  .title-3 h2 {
+    font-size: 40px;
+  }
+  .purple-area {
+    margin-top: 50px;
+  }
+  .card-2 {
+    width: 343px;
+  }
+  .card-2 img {
+    position: absolute;
+    z-index: 0;
+    height: 500px;
+    width: 343px;
+  }
+  .write-2 {
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 0px;
+  }
+  .write-2 h2 {
+    font-size: 40px;
+  }
+  .card-3 {
+    width: 346px;
+    margin-top: 30px;
+    display: block;
+  }
+  .caesar {
+    width: 346px;
+    background-position: 60%;
+  }
+  .writes {
+    top: 22px;
+    left: 26px;
+  }
+  .dog {
+    width: 346px;
+    background-position: 50%;
+  }
+  .detail {
+    height: 1460px;
+    width: 375px;
+    background-position: 40% 0;
+  }
+  .detail h2 {
+    margin-left: 14px;
+    top: 759px;
+    font-size: 40px;
+  }
+  .detail p {
+    margin-left: 14px;
+    top: 793px;
+  }
+  .down {
+    display: block;
+    left: 14px;
+    top: 850px;
+    width: 375px;
+  }
+  .right {
+    margin-top: 27px;
+  }
+  .office {
+    display: inline-block;
+    width: 100%;
+  }
+  .promotion {
+    height: 512px;
+  }
+  .promotion h5 {
+    margin-top: 106px;
+    margin-left: 14px;
+    margin-bottom: 19px;
+  }
+  .promotion h2 {
+    margin-left: 14px;
+    font-size: 40px;
+    margin-bottom: 31px;
+  }
+  .promotion p {
+    margin-left: 14px;
+    margin-bottom: 24px;
+  }
+  .promotion button {
+    margin-left: 14px;
+  }
+  .office-img img {
+    width: 100%;
+  }
+  .user-area {
+    margin-top: 47px;
+  }
+  .write-area h2 {
+    font-size: 40px;
+  }
+  .user {
+    display: inline-block;
+    width: 100%;
+  }
+  .user-1 {
+    width: 346px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+  }
+  .message-card {
+    width: 100%;
+    display: inline-block;
+  }
+  .method {
+    width: 346px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+  }
+  .feedback {
+    height: 900px;
+    display: inline-block;
+  }
+  .photo {
+    display: flex;
+    justify-content: space-around;
+  }
+  .f-back {
+    margin-top: 43px;
+    margin-left: 73px;
+  }
+  .logo {
+    width: 375px;
+    text-align: center;
+  }
+  .logo img {
+    margin-right: 19px;
+    margin-top: 34px;
+  }
+  .product {
+    height: 1400px;
+  }
+  .baslik {
+    width: 375px;
+  }
+  .baslik h5 {
+    margin-left: 15px;
+  }
+  .alt-baslik {
+    display: block;
+    margin-left: 15px;
+  }
+  .alt-baslik button {
+    margin-top: 25px;
+  }
+  .alt-baslik h2 {
+    font-size: 40px;
+  }
+  .product-card {
+    width: 100%;
+    display: inline-block;
+  }
+  .product-1 {
+    width: 346px;
+    margin-bottom: 36px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+  }
+  .product-image img {
+    width: 345px;
+    height: 345px;
+  }
+  .social-media {
+    height: 1060px;
+  }
+  .area {
+    display: block;
+    width: 100%;
+  }
+  .write-4 {
+    margin-left: 14px;
+  }
+  .photos {
+    display: grid;
+    margin: 0 auto;
+  }
+  .photos img {
+    margin-top: 15px;
+  }
+  .subscribe {
+    height: 1100px;
+  }
+  .content {
+    width: auto;
+    height: 1135px;
+    background-position: center 650px;
+    background-size: 600px;
+  }
+  .write-5 {
+    margin-left: 15px;
+  }
+  .write-5 h2 {
+    font-size: 40px;
+  }
+  .placeholder {
+    display: grid;
+  }
+  .placeholder button {
+    margin-top: 15px;
+  }
+  .map {
+    height: 1030px;
+  }
+  .map-detail {
+    width: 100%;
+    display: block;
+  }
+  .map-area {
+    width: 76%;
+    margin: 0 auto;
+  }
+  .map-area img {
+    width: 100%;
+    height: 480px;
+    margin-top: 70px;
+  }
+  .form {
+    margin-left: 15px;
+  }
+  .form h2 {
+    font-size: 40px;
+    margin-bottom: 38px;
+  }
+  .form input {
+    width: 93%;
+  }
+  .footer {
+    height: 630px;
+    margin-left: 15px;
+  }
+  .foot {
+    display: block;
+  }
+  .foot-center {
+    width: 100%;
+    display: block;
+  }
+}
+
+/*About sayfası*/
+.about {
+  width: 100%;
+  height: 224px;
+  text-align: center;
+  background-color: #434ccc;
+}
+.about h1 {
+  font-family: "DM Serif Display";
+  color: #ffff;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 2;
+}
+.about p {
+  font-family: "DM Sans";
+  color: #ffff;
+  font-weight: 400;
+  font-size: 20px;
+}
+.statics {
+  width: 100%;
+  height: 590px;
+  background-image: url(./img/friend.png);
+  background-repeat: no-repeat;
+  background-position: 80%;
+}
+.static {
+  margin: 0 auto;
+  width: 1170px;
+}
+.static h5 {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 21px;
+  margin-top: 127px;
+}
+.static h2 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 56px;
+  margin-bottom: 29px;
+}
+.static p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.numbers {
+  display: flex;
+  gap: 30px;
+}
+.number h3 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 40px;
+}
+.number h6 {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 16px;
+}
+.number p {
+  font-family: "DM Sans";
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+  font-size: 16px;
+}
+.white {
+  height: 768px;
+  width: 100%;
+  background-color: #ffff;
+}
+.deals {
+  width: 100%;
+}
+.deal h5 {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 21px;
+}
+.deal h2 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 56px;
+  margin-bottom: 29px;
+}
+.deal p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.deal {
+  width: 1175px;
+  margin: 0 auto;
+  background-image: url(./img/welcome.png);
+  background-repeat: no-repeat;
+  background-position: 200%;
+}
+.advantages {
+  margin-top: 23px;
+}
+.advantage {
+  display: flex;
+}
+.advantage img {
+  width: 41px;
+  height: 39px;
+  margin-right: 23px;
+}
+.advantage p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 3;
+}
+.welcome {
+  width: 700px;
+}
+.buttons {
+  display: flex;
+  gap: 30px;
+}
+.button1 button {
+  background-color: #434ccc;
+  border: none;
+  width: 170px;
+  height: 48px;
+  border-radius: 5px;
+}
+.button1 a {
+  font-family: "DM Sans";
+  text-align: center;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+}
+.button2 button {
+  background-color: #fff;
+  border: none;
+  width: 170px;
+  height: 48px;
+  border-radius: 5px;
+  border: 1px solid #434ccc;
+}
+.button2 a {
+  font-family: "DM Sans";
+  text-align: center;
+  color: #434ccc;
+  font-weight: 700;
+  font-size: 16px;
+}
+.sea {
+  width: 100%;
+  height: 480px;
+  background-color: #434ccc;
+}
+.under {
+  width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.num h1 {
+  font-family: "DM Serif Display";
+  color: #fff;
+  font-weight: 400;
+  font-size: 72px;
+  text-align: center;
+}
+.num p {
+  font-family: "DM Sans";
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  font-size: 16px;
+}
+.audiam {
+  width: 100%;
+  height: 768px;
+  display: flex;
+}
+.all {
+  display: flex;
+  width: 1170px;
+  margin: 0 auto;
+  margin-top: 111px;
+}
+.vim-illum {
+  width: 1170px;
+  margin: 0 auto;
+}
+.side-heading h5 {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+}
+.side-heading h2 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 56px;
+}
+.side-heading p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 20px;
+}
+.side-heading button {
+  width: 170px;
+  height: 48px;
+  background-color: #fff;
+  border: 1px solid #434ccc;
+  border-radius: 5px;
+  margin-top: 33px;
+}
+.side-heading button a {
+  font-family: "DM Sans";
+  text-align: center;
+  color: #434ccc;
+  font-weight: 700;
+  font-size: 16px;
+}
+.methods {
+  display: block;
+}
+.method2 {
+  display: flex;
+  width: 370px;
+  height: 144px;
+  background: #ffffff;
+  border-radius: 5px;
+}
+.method2-img img {
+  padding: 32px;
+}
+.method2-info {
+  margin-top: 24px;
+}
+.method2-info h4 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 24px;
+}
+.method2-info p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+}
+.tantas {
+  width: 100%;
+  height: 768px;
+  margin-top: 100px;
+}
+.mountain {
+  width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.mountain-photo img {
+  border-radius: 5px;
+}
+.graphic {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 48px;
+  width: 470px;
+  height: 10px;
+  background-color: #ffff;
+  color: #807e7e;
+  font-family: "Open Sans", sans-serif;
+  justify-content: center;
+  border: 1px solid whitesmoke;
+  border-radius: 23.5px;
+}
+.inactive {
+  width: 90px;
+  height: 10px;
+  padding: 24px 0;
+  line-height: 0;
+  text-align: center;
+}
+.inactive2 {
+  width: 152px;
+}
+.inactive3 {
+  width: 288px;
+}
+.active {
+  background-color: #f1b505;
+  color: #ffff;
+  border-radius: 23.5px;
+  text-align: center;
+  width: 382px;
+  height: 9px;
+}
+.active2 {
+  background-color: #e94a47;
+  color: #ffff;
+  border-radius: 23.5px;
+  text-align: center;
+  width: 382px;
+  height: 9px;
+}
+.active3 {
+  background-color: #428dfc;
+  color: #ffff;
+  border-radius: 23.5px;
+  text-align: center;
+  width: 182px;
+  height: 9px;
+}
+@media screen and (max-width: 450px) {
+  .statics {
+    height: 1152px;
+    background-position: 72% 95%;
+    background-size: 616px;
+    margin-left: 15px;
+  }
+  .numbers {
+    display: block;
+  }
+  .static p {
+    width: 346px;
+  }
+  .static h2 {
+    font-size: 40px;
+  }
+  .white {
+    height: 1632px;
+  }
+  .deals {
+    height: 850px;
+    margin-left: 15px;
+  }
+  .demo {
+    display: block;
+  }
+  .demo-write p {
+    width: 346px;
+  }
+  .buttons {
+    gap: 5px;
+  }
+  .sea {
+    height: 896px;
+  }
+  .under {
+    display: initial;
+  }
+  .num p {
+    text-align: center;
+  }
+  .audiam {
+    height: 1376px;
+  }
+  .vim-illum {
+    margin-left: 15px;
+  }
+  .all {
+    display: block;
+  }
+  .tantas {
+    margin-left: 15px;
+    height: 832px;
+  }
+  .mountain {
+    display: block;
+  }
+  .mountain-photo img {
+    width: 343px;
+  }
+  .demo-write {
+    width: 375px;
+  }
+  .demo-write {
+    margin-left: 15px;
+  }
+  .subscribe2 {
+    height: 480px;
+  }
+  .placeholder2 input {
+    display: block;
+    margin-top: 38px;
+    margin-left: 15px;
+  }
+  .content2 {
+    display: block;
+  }
+  .write-5 h2 {
+    width: 209px;
+  }
+  .placeholder2 button {
+    margin-left: 15px;
+    margin-top: 16px;
+  }
+}
+/*About sayfası*/

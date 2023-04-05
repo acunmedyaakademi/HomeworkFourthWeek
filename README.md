@@ -1,2 +1,2 @@
-# HomeworkFourthWeek
-FrontEnd Sınıfı 4. Hafta Ödevleri
+# thekadiroglu.github.io
+Selamun Aleyküm
