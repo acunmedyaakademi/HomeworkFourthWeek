@@ -808,6 +808,10 @@
     color: #FFFFFF;
 }
 
+.dictamobile {
+    display: none;
+}
+
 .dictaleft h4 {
     font-family: 'DM Serif Display';
     font-weight: 400;

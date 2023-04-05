@@ -270,6 +270,14 @@
         padding-bottom: 57px;
     }
 
+    .dictadesktop {
+        display: none;
+    }
+
+    .dictamobile {
+        display: block;
+    }
+
     .dictaleft {
         margin-left: 0;
     }
