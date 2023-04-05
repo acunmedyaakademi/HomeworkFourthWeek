@@ -1,0 +1,806 @@
+/*=============================================
+=                Hero Section                 =
+=============================================*/
+
+.hero {
+  padding: 80px 0 40px;
+  color: var(--clr-white);
+  background-color: var(--clr-blue);
+}
+
+.hero-title {
+  font-size: clamp(5.6rem, 10vw, 7.2rem);
+  line-height: var(--l-height-xs);
+  margin: 20px 0;
+  font-family: dm-serif;
+}
+
+.hero-text {
+  margin-bottom: 25px;
+  font-family: dm-sans-bold;
+  font-size: 1.6rem;
+}
+
+.hero-img-container {
+  margin: var(--mx-auto);
+  max-width: max-content;
+  margin-top: 20px;
+}
+
+@media (min-width: 1085px) {
+  .hero {
+    height: 767px;
+    display: flex;
+    align-items: center;
+  }
+
+  .hero .main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .hero-title {
+    margin: 32px 0;
+  }
+
+  .hero-text {
+    width: 370px;
+    margin-bottom: 41px;
+  }
+}
+
+/*=====  End of Hero Section  ======*/
+
+/*=============================================
+=                Post Section                 =
+=============================================*/
+
+.post {
+  border-color: var(--clr-white-2);
+  padding: 63px 0 57px;
+}
+
+.post-title {
+  font-family: dm-serif;
+  font-size: clamp(3.4rem, 10vw, 5.6rem);
+  text-align: center;
+}
+
+.post-text {
+  font-size: 2rem;
+  margin: 31px 0 50px;
+  text-align: center;
+  max-width: 570px;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.group img {
+  align-self: center;
+}
+
+.group:nth-of-type(1) {
+  margin-bottom: 50px;
+}
+
+.group:nth-of-type(2) > img {
+  order: 2;
+}
+
+.group h4 {
+  font-family: dm-serif;
+  font-size: clamp(2.4rem, 6vw, 4rem);
+  line-height: var(--l-height);
+}
+
+.group p {
+  margin: 23px 0 18px;
+  font-size: 1.6rem;
+}
+
+@media (min-width: 998px) {
+  .post {
+    padding: 63px 0 117px;
+  }
+
+  .group {
+    flex-direction: row;
+  }
+
+  .group div {
+    width: 470px;
+  }
+}
+
+/*=====  End of Post Section  ======*/
+
+/*=============================================
+=            Portfolio Section            =
+=============================================*/
+
+.portfolio {
+  background: linear-gradient(
+    to bottom,
+    var(--clr-blue) 768px,
+    var(--clr-white-2) 768px,
+    var(--clr-white-2) 100%
+  );
+  color: var(--clr-white);
+  padding-top: 63px;
+  padding-bottom: 28px;
+}
+
+.portfolio-title {
+  font-family: dm-serif;
+  font-size: clamp(3.4rem, 10vw, 5.6rem);
+  text-align: center;
+}
+
+.portfolio-text {
+  font-size: 2rem;
+  margin: 31px 0 50px;
+  text-align: center;
+  max-width: 570px;
+}
+
+@media (min-width: 800px) {
+  .portfolio {
+    padding-top: 79px;
+  }
+}
+/*=====  End of Portfolio Section  ======*/
+
+/*=============================================
+=             Anonymous1 Section              =
+=============================================*/
+
+.anonymous1 {
+  background-color: var(--clr-white-2);
+  padding-bottom: 62px;
+}
+
+.anonymous1-img {
+  display: flex;
+  justify-content: center;
+}
+
+.anonymous1-title {
+  font-family: dm-serif;
+  font-size: clamp(3.4rem, 10vw, 5.6rem);
+}
+
+.anonymous1-text {
+  font-size: 2rem;
+  margin: 31px 0 50px;
+}
+
+.anonymous1-content > div {
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.anonymous1-group h5 {
+  font-family: dm-serif;
+  font-size: 2.4rem;
+  margin: 16px 0 23px;
+}
+
+.anonymous1-group p {
+  font-size: 1.6rem;
+  color: var(--clr-black-op2);
+}
+
+@media (min-width: 550px) {
+  .anonymous1-content > div {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1050px) {
+  .anonymous1 .main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .anonymous1-text {
+    max-width: 570px;
+  }
+}
+/*=====  End of Anonymous1 Section  ======*/
+
+/*=============================================
+=             Anonymous2 Section              =
+=============================================*/
+
+.anonymous2 {
+  color: var(--clr-white);
+  background-color: var(--clr-blue);
+}
+
+.anonymous2-content {
+  padding: 63px 0;
+}
+
+.anonymous2-title {
+  font-size: clamp(5.6rem, 10vw, 7.2rem);
+  line-height: var(--l-height-xs);
+  margin: 20px 0;
+  font-family: dm-serif;
+}
+
+.anonymous2-text {
+  margin-bottom: 25px;
+  font-family: dm-sans;
+  font-size: 1.6rem;
+}
+
+.anonymous2-img-container {
+  margin: var(--mx-auto);
+  max-width: max-content;
+  margin-top: 20px;
+}
+
+@media (min-width: 1300px) {
+  .anonymous2 {
+    height: 656px;
+    display: flex;
+    align-items: center;
+  }
+
+  .anonymous2 .main-container {
+    flex-direction: row;
+    max-width: 1440px;
+  }
+
+  .anonymous2-content {
+    flex: 1;
+  }
+
+  .anonymous2-title {
+    margin: 32px 0;
+  }
+
+  .anonymous2-text {
+    width: 370px;
+    margin-bottom: 41px;
+  }
+
+  .anonymous2-img-container {
+    display: flex;
+    margin: 0;
+    height: 100%;
+    flex: 1;
+  }
+
+  .anonymous2-img-container img {
+    max-width: none;
+  }
+}
+
+/*=====  End of Anonymous2 Section  ======*/
+
+/*=============================================
+=                Teams Section                =
+=============================================*/
+
+.teams {
+  background-color: var(--clr-white-2);
+  padding-top: 47px;
+  padding-bottom: 20px;
+}
+
+.teams-title {
+  font-family: dm-serif;
+  font-size: clamp(3.4rem, 10vw, 5.6rem);
+  text-align: center;
+}
+
+.teams-text {
+  font-size: 2rem;
+  margin: 31px 0 50px;
+  text-align: center;
+  max-width: 570px;
+}
+
+.teams .card {
+  height: 480px;
+}
+
+/*=====  End of Teams Section  ======*/
+
+/*=============================================
+=             Anonymous3 Section              =
+=============================================*/
+.features {
+  background-color: var(--clr-white-2);
+  padding-top: 75px;
+  padding-bottom: 80px;
+}
+
+.features-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  row-gap: 32px;
+  column-gap: 30px;
+}
+
+.feature-card {
+  display: flex;
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  padding: 24px 32px 16px;
+  gap: 25px;
+}
+
+.feature-card img {
+  width: 25px;
+  height: 25px;
+}
+
+.feature-card h4 {
+  font-size: 2.4rem;
+  font-family: dm-serif;
+  line-height: 1;
+  margin-bottom: 7px;
+}
+
+.feature-card p {
+  font-size: 1.6rem;
+  color: var(--clr-black-op2);
+}
+/*=====  End of Anonymous3 Section  ======*/
+
+/*=============================================
+=            Testimonial Section            =
+=============================================*/
+
+.testimonial {
+  background-color: var(--clr-blue);
+  color: var(--clr-white);
+}
+
+.testimonial .main-container {
+  padding: 80px 0 54px 73px;
+}
+
+.float-container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -50px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.float-container button {
+  display: grid;
+  place-content: center;
+  width: 48px;
+  height: 48px;
+  border: 1px solid var(--clr-white-op1);
+  border-radius: var(--border-radius);
+}
+
+.testimonial-img {
+  margin-bottom: 33px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial-text {
+  font-size: 2.4rem;
+  font-family: dm-serif;
+  padding: 33px 0 25px;
+}
+
+.testimonial-title {
+  font-size: 2rem;
+}
+
+.testimonial-small {
+  font-size: 1.6rem;
+  color: var(--clr-white-op2);
+}
+
+@media (min-width: 1000px) {
+  .testimonial .main-container {
+    height: 496px;
+    flex-direction: row;
+    gap: 98px;
+    padding: 0;
+  }
+
+  .testimonial-img {
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 0;
+    margin-left: auto;
+    padding-left: 142px;
+  }
+
+  .float-container {
+    left: 0;
+  }
+
+  .testimonial-content {
+    max-width: 670px;
+  }
+}
+
+/*=====  End of Testimonial Section  ======*/
+
+/*=============================================
+=             Anonymous4 Section              =
+=============================================*/
+
+.anonymous4 {
+  padding-top: 63px;
+  padding-bottom: 80px;
+  background-color: var(--clr-white-2);
+}
+
+.client-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 66px;
+}
+
+.anonymous4 .btn {
+  color: var(--clr-blue);
+  border: 1px solid currentColor;
+}
+
+@media (min-width: 500px) {
+  .anonymous4 {
+    padding-top: 79px;
+    padding-bottom: 96px;
+  }
+
+  .client-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+/*=====  End of Anonymous3 Section  ======*/
+
+/*=============================================
+=              Blog Section             =
+=============================================*/
+
+.blog {
+  background-color: var(--clr-white-2);
+  border: 1px solid var(--clr-black-op1);
+  padding: 48px 0;
+}
+
+.blog-title {
+  font-family: dm-serif;
+  font-size: clamp(3.4rem, 10vw, 5.6rem);
+  align-self: self-start;
+  margin-bottom: 38px;
+}
+
+.blog p {
+  align-self: self-start;
+}
+
+.blog .btn {
+  color: var(--clr-blue);
+  border: 1px solid currentColor;
+  margin-top: 48px;
+}
+
+.blog-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  row-gap: 16px;
+  column-gap: 30px;
+}
+
+.blog-container .card {
+  padding: 32px 32px 21px;
+  max-width: none;
+}
+
+.blog-container .small-text {
+  margin: 15px 0 17px;
+}
+
+.blog-container .card > img {
+  height: 272px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+/*=====  End of Blog Section  ======*/
+
+/*=============================================
+=             Anonymous6 Section              =
+=============================================*/
+
+.anonymous5 {
+  background-color: var(--clr-white-2);
+  padding: 62px 0 84px;
+}
+
+.anonymous5 .main-container {
+  align-items: flex-start;
+}
+
+.anonymous5-content {
+  min-width: max-content;
+}
+
+.anonymous5-title {
+  font-size: 2.3rem;
+  font-family: dm-serif;
+  margin: 33px 0 40px;
+}
+
+.anonymous5-group {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 1.6rem;
+  color: var(--clr-black-op2);
+  margin-bottom: 48px;
+}
+
+.anonymous5 .btn {
+  width: 48px;
+  border: 1px solid var(--clr-blue);
+}
+
+.anonymous5 .img-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 20px;
+  column-gap: 30px;
+}
+
+@media (min-width: 1225px) {
+  .anonymous5 .main-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .anonymous5 .img-container {
+    justify-content: flex-end;
+  }
+}
+/*=====  End of Anonymous6 Section  ======*/
+
+/*=============================================
+=              Subscribe Section              =
+=============================================*/
+
+.subscribe {
+  background-color: var(--clr-yellow);
+}
+
+.subscribe .main-container {
+  padding: 63px 0;
+  height: 100%;
+}
+
+.subscribe-content {
+  margin-bottom: 60px;
+}
+
+.subscribe :is(h3, p) {
+  text-align: left;
+}
+
+.subscribe h3 {
+  font-family: dm-serif;
+  font-size: clamp(3.4rem, 10vw, 5.6rem);
+}
+
+.subscribe form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.subscribe .btn {
+  background-color: var(--clr-blue);
+  color: var(--clr-white);
+}
+
+@media (min-width: 1080px) {
+  .subscribe {
+    height: 656px;
+  }
+
+  .subscribe .main-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .subscribe-content {
+    max-width: 470px;
+  }
+
+  .subscribe form {
+    flex-direction: row;
+  }
+
+  .subscribe input {
+    flex: 1;
+  }
+}
+/*=====  End of Subscribe Section  ======*/
+
+/*=============================================
+=              Contact Us Section             =
+=============================================*/
+
+.contactUs {
+  background-color: var(--clr-blue);
+  color: var(--clr-white);
+}
+
+.contactUs .main-container {
+  padding: 80px 0 63px;
+}
+
+.contactUs :is(h3, p) {
+  text-align: left;
+}
+
+.contactUs .img-container {
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  height: 464px;
+  display: flex;
+}
+
+.contactUs .img-container img {
+  flex: 1;
+  object-fit: cover;
+}
+
+.contactUs form {
+  width: 100%;
+  margin-top: 47px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactUs input {
+  margin-top: 38px;
+}
+
+.contactUs textarea {
+  height: 96px;
+  margin: 32px 0 48px;
+}
+
+.contactUs .btn {
+  background-color: var(--clr-orange);
+  color: var(--clr-white);
+}
+
+@media (min-width: 1000px) {
+  .contactUs .main-container {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .contactUs form {
+    max-width: 470px;
+    margin-top: 0;
+  }
+}
+/*=====  End of Contact Us Section  ======*/
+
+/*=============================================
+=                Footer Section               =
+=============================================*/
+
+footer {
+  background-color: var(--clr-white-2);
+  padding: 72px 0 29px;
+  font-size: 1.6rem;
+}
+
+footer > .main-container {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.footer-content {
+  max-width: 270px;
+}
+
+.footer-text {
+  margin: 23px 0 36px;
+  color: var(--clr-black-op2);
+}
+
+.footer-content div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.footer-links {
+  display: flex;
+  gap: 120px;
+}
+
+.footer-links > li > a {
+  font-family: dm-sans-bold;
+}
+
+.sub-links {
+  color: var(--clr-black-op2);
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.articles {
+  display: flex;
+  flex-direction: column;
+  gap: 39px;
+  max-width: 370px;
+}
+
+.article-item {
+  display: flex;
+  gap: 19px;
+}
+
+.article-item img {
+  align-self: flex-start;
+}
+
+.article-text {
+  color: var(--clr-black-op2);
+}
+
+.article-date {
+  font-family: dm-sans-bold;
+}
+
+.copy-right {
+  margin-top: 55px;
+  color: var(--clr-black-op2);
+  padding-top: 27px;
+  border-top: 1px solid var(--clr-black-op1);
+}
+
+.copy-right .main-container {
+  align-items: flex-start;
+}
+
+@media (min-width: 500px) {
+  .copy-right .main-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+/*=====  End of Footer Section  ======*/
