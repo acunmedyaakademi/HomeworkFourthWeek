@@ -71,13 +71,12 @@
     position: absolute;
     width: 300px;
     height: 0;
-    background: rgba(255, 255, 255, 0.1);
+    background: #5059de;
     right: 15px;
     top: 55px;
-    backdrop-filter: blur(100px);
     border-radius: 10px;
     overflow: hidden;
-    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: height 0.2s ease-in-out;
 }
 
 .dropdown-menu.open {
